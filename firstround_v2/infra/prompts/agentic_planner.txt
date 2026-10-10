@@ -1,0 +1,20 @@
+- Prioritize including at least one vector search step (graphrag__hybrid_search or graphrag__contextual_search) unless you are highly confident the question is a pure structured-data request — an exact count, an attribute/id lookup, a relationship traversal, or an aggregation over typed graph data — that a generated graph query fully answers on its own. Whenever the answer could plausibly live in document text (what/why/how/describe/summarize, definitions, explanations, figures), include a vector search step. When unsure, include vector search.
+- Use BOTH kinds when a question needs facts from the graph AND supporting text; you may run several of each, in any order. When you use STRUCTURAL, pair it with a vector search step unless the question is a pure structured-data request.
+- Use graphrag__structural_retrieve when the question counts, filters, ranks or compares several records ("how many ... had more than ...", "which ... had the most ..."), when it refers to one record through another ("the edition held immediately before ...", "the event held at <venue> on <date>", "the director of the film that ..."), or when it identifies a record by its attributes rather than by its name. In those cases also add a vector search step. It is expensive, so when the question names one thing directly and asks for one of its facts ("who directed <film>", "who won <event> at <games>"), use vector search alone.
+- Use at most one graphrag__structural_retrieve step per plan, and give it the whole question, because one graph query can follow a chain of facts. Questions that depend on an earlier fact ("the edition held immediately before ...", "the director of the film that ...") can use one vector search step per fact, so each search looks for one thing.
+- Prefer the smallest plan that will work. Trivial/greeting questions need only the final answer step.
+
+Write the plan as a JSON object with exactly two keys, "strategy" and "steps".
+- "strategy" is one sentence describing the approach.
+- "steps" is a list. Each step is an object with exactly these keys:
+  - "id": a short step id such as "S1", "S2", or "A" for the answer step
+  - "kind": one of "schema", "structural", "unstructured" or "answer"
+  - "tool": the exact tool name from the tool list, or "" for the answer step
+  - "args": an object with the tool's arguments, for example a "question" key holding the sub-question
+  - "arg_bindings": an object, usually empty
+  - "depends_on": a list of earlier step ids, empty if none
+  - "rationale": one short sentence
+Use these key names exactly. Do not use "name", "input" or "parameters" as keys.
+
+Example for "How many films directed by Ridley Scott ran longer than 150 minutes?":
+{"strategy": "Count matching records in the graph and check the text.", "steps": [{"id": "S1", "kind": "structural", "tool": "graphrag__structural_retrieve", "args": {"question": "How many films directed by Ridley Scott ran longer than 150 minutes?"}, "arg_bindings": {}, "depends_on": [], "rationale": "Exact count over typed records."}, {"id": "S2", "kind": "unstructured", "tool": "graphrag__hybrid_search", "args": {"question": "Ridley Scott films running time"}, "arg_bindings": {}, "depends_on": [], "rationale": "Supporting text."}, {"id": "A", "kind": "answer", "tool": "", "args": {}, "arg_bindings": {}, "depends_on": ["S1", "S2"], "rationale": "Answer from both."}]}

@@ -1,0 +1,115 @@
+{"pipeline": "rag", "qid": "gen-001", "answer": "Anthony Minghella", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-002", "answer": "Gregory Hoblit", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-003", "answer": "Roger Donaldson", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-004", "answer": "162 minutes", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-005", "answer": "124 minutes", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-006", "answer": "114 minutes", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-007", "answer": "Ezzedine Salim", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-008", "answer": "Rabah Bitat (Interim)", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-009", "answer": "Noor Hassanali", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-010", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide an answer"}}
+{"pipeline": "rag", "qid": "gen-011", "answer": "Charlie's Angels", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-012", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "gen-013", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide an answer"}}
+{"pipeline": "rag", "qid": "gen-014", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide an answer"}}
+{"pipeline": "rag", "qid": "gen-015", "answer": "Sadak", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-016", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, gold answer is Stanley Clarke"}}
+{"pipeline": "rag", "qid": "gen-017", "answer": "Trevor Jones", "judge": {"score": 0, "reason": "Incorrect composer name"}}
+{"pipeline": "rag", "qid": "gen-018", "answer": "J. Peter Robinson", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-019", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide the year"}}
+{"pipeline": "rag", "qid": "gen-020", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "gen-021", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no year given"}}
+{"pipeline": "rag", "qid": "gen-022", "answer": "3", "judge": {"score": 0.5, "reason": "Prediction partially matches the gold answer"}}
+{"pipeline": "rag", "qid": "gen-023", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "rag", "qid": "gen-024", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is 'UNKNOWN', no answer given"}}
+{"pipeline": "rag", "qid": "gen-025", "answer": "2", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "gen-026", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is 'UNKNOWN'"}}
+{"pipeline": "rag", "qid": "gen-027", "answer": "1", "judge": {"score": 0.5, "reason": "Prediction partially matches the gold answer"}}
+{"pipeline": "rag", "qid": "gen-028", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "gen-029", "answer": "The Last of the Mohicans", "judge": {"score": 0, "reason": "Prediction does not match the gold answer"}}
+{"pipeline": "rag", "qid": "gen-030", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "gen-031", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is UNKNOWN"}}
+{"pipeline": "rag", "qid": "gen-032", "answer": "Saving Private Ryan", "judge": {"score": 0, "reason": "Prediction is a different film than gold"}}
+{"pipeline": "rag", "qid": "gen-033", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "gen-001", "answer": "Anthony Minghella", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-002", "answer": "Gregory Hoblit", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-003", "answer": "Roger Donaldson", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-004", "answer": "162 minutes", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-005", "answer": "124 minutes", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-006", "answer": "114 minutes", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-007", "answer": "Ezzedine Salim", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-008", "answer": "Rabah Bitat (Interim)", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-009", "answer": "Noor Hassanali", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-010", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is UNKNOWN, no answer given"}}
+{"pipeline": "graphrag", "qid": "gen-011", "answer": "Charlie's Angels", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-012", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is UNKNOWN, no answer given"}}
+{"pipeline": "graphrag", "qid": "gen-013", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "gen-014", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide an answer"}}
+{"pipeline": "graphrag", "qid": "gen-015", "answer": "Sadak", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-016", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, gold is Stanley Clarke"}}
+{"pipeline": "graphrag", "qid": "gen-017", "answer": "Jerry Goldsmith", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-018", "answer": "J. Peter Robinson", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-019", "answer": "1926", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "gen-020", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide the year"}}
+{"pipeline": "graphrag", "qid": "gen-021", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, gold is 1942"}}
+{"pipeline": "graphrag", "qid": "gen-022", "answer": "3", "judge": {"score": 0.5, "reason": "Prediction partially matches gold answer"}}
+{"pipeline": "graphrag", "qid": "gen-023", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "graphrag", "qid": "gen-024", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "gen-025", "answer": "3", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "gen-026", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide a number"}}
+{"pipeline": "graphrag", "qid": "gen-027", "answer": "1", "judge": {"score": 0.5, "reason": "Prediction partially matches gold answer"}}
+{"pipeline": "graphrag", "qid": "gen-028", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide an answer"}}
+{"pipeline": "graphrag", "qid": "gen-029", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "gen-030", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "gen-031", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "graphrag", "qid": "gen-032", "answer": "Saving Private Ryan", "judge": {"score": 0, "reason": "Prediction is a different film than gold answer"}}
+{"pipeline": "graphrag", "qid": "gen-033", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "agentic", "qid": "gen-001", "answer": "Anthony Minghella", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-002", "answer": "Gregory Hoblit", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-003", "answer": "Roger Donaldson", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-004", "answer": "162 minutes", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-005", "answer": "124 minutes", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-006", "answer": "114 minutes", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-007", "answer": "Ezzedine Salim", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-008", "answer": "Houari Boumédiène", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "gen-009", "answer": "Noor Hassanali", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-010", "answer": "Forrest Gump", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-011", "answer": "Charlie's Angels", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-012", "answer": "The Sweetest Thing", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-013", "answer": "Life Stinks", "judge": {"score": 0, "reason": "Incorrect film before Robin Hood: Men in Tights"}}
+{"pipeline": "agentic", "qid": "gen-014", "answer": "In the filmography of Wolfgang Petersen, the film released immediately before Outbreak (1995) is not explicitly mentioned in the provided corpus. Therefore, based on the given information, the answer cannot be determined.", "judge": {"score": 0, "reason": "Prediction states answer cannot be determined"}}
+{"pipeline": "agentic", "qid": "gen-015", "answer": "Sadak", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-016", "answer": "Christopher Young", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "gen-017", "answer": "Jerry Goldsmith", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-018", "answer": "J. Peter Robinson", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-019", "answer": "1926", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-020", "answer": "1957", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-021", "answer": "1942", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-022", "answer": "7", "judge": {"score": 0, "reason": "Prediction exceeds gold answer"}}
+{"pipeline": "agentic", "qid": "gen-023", "answer": "3", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-024", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "gen-025", "answer": "3", "judge": {"score": 0, "reason": "Prediction exceeds gold answer"}}
+{"pipeline": "agentic", "qid": "gen-026", "answer": "3", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-027", "answer": "1", "judge": {"score": 0, "reason": "Prediction undercounts films after 1997"}}
+{"pipeline": "agentic", "qid": "gen-028", "answer": "The Longest Yard (2005) with a runtime of 113 minutes", "judge": {"score": 0, "reason": "Wrong film and year, not 2006"}}
+{"pipeline": "agentic", "qid": "gen-029", "answer": "The film released in 1996 with the longest runtime is the uncut DVD version of the film mentioned in the 1996 context, which runs for 109 minutes.", "judge": {"score": 0, "reason": "Prediction lacks the film's name 'Hamlet'"}}
+{"pipeline": "agentic", "qid": "gen-030", "answer": "The film released in 1988 with the longest runtime is not explicitly stated in the provided corpus.", "judge": {"score": 0, "reason": "Prediction states no answer, gold provides one"}}
+{"pipeline": "agentic", "qid": "gen-031", "answer": "Pulp Fiction (154 minutes)", "judge": {"score": 0, "reason": "Different films, incorrect answer"}}
+{"pipeline": "agentic", "qid": "gen-032", "answer": "The film released in 1998 with the longest runtime is not explicitly stated in the provided corpus. However, among the films mentioned with runtimes, \"The Last of the Mohicans\" (1992) has runtimes of 112 minutes (theatrical), 117 minutes (Director's Expanded Edition), and 114 minutes (Director's Definitive Cut). No 1998 film runtime is given. Therefore, based on the available data, no 1998 film runtime is provided to determine the longest runtime for that year.", "judge": {"score": 0, "reason": "Prediction states no 1998 film runtime given, gold names one"}}
+{"pipeline": "agentic", "qid": "gen-033", "answer": "Moonstruck", "judge": {"score": 0, "reason": "Moonstruck not from 1987 or longest runtime"}}
+{"pipeline": "agentic", "qid": "gen-008", "answer": "Rabah Bitat (Interim)", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-012", "answer": "Cruel Intentions", "judge": {"score": 0, "reason": "Prediction does not match the gold answer"}}
+{"pipeline": "agentic", "qid": "gen-014", "answer": "In the provided corpus, there is no information about a film directed by Wolfgang Petersen released immediately before Outbreak (1995).", "judge": {"score": 0, "reason": "Prediction states no information, but gold answer exists"}}
+{"pipeline": "agentic", "qid": "gen-015", "answer": "Duplicate", "judge": {"score": 0, "reason": "Prediction does not answer the question"}}
+{"pipeline": "agentic", "qid": "gen-016", "answer": "Stanley Clarke", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-022", "answer": "4", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-024", "answer": "3", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-025", "answer": "2", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-026", "answer": "0", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "gen-027", "answer": "2", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "gen-028", "answer": "No film released in 2006 is mentioned in the provided corpus. The only film runtimes given are for \"The Longest Yard\" (2005) with 113 minutes and various short segments of \"The Terminal\" totaling 57:58. Therefore, based on the provided information, no 2006 film runtime is available to determine the longest runtime.", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "gen-029", "answer": "The film released in 1996 with the longest runtime is the one with a 109-minute uncut DVD version, compared to its original 99-minute theatrical version.", "judge": {"score": 0, "reason": "Prediction lacks film name 'Hamlet (1996 film)'"}}
+{"pipeline": "agentic", "qid": "gen-030", "answer": "The film released in 1988 with the longest runtime is 1 hour 57 minutes.", "judge": {"score": 0, "reason": "Prediction gives runtime, not film name"}}
+{"pipeline": "agentic", "qid": "gen-031", "answer": "Speed (1994 film) has a runtime of 116 minutes, The Longest Yard (2005 film) has a runtime of 113 minutes, and Far and Away (1992 film) has an extended TV cut of 170 minutes but was released in 1992, not 1994. Therefore, the 1994 film with the longest runtime is Speed with 116 minutes.", "judge": {"score": 0, "reason": "Prediction names wrong film for 1994 longest runtime"}}
+{"pipeline": "agentic", "qid": "gen-032", "answer": "Saving Private Ryan", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "gen-033", "answer": "1h 57m", "judge": {"score": 0, "reason": "Prediction gives runtime, not film title"}}

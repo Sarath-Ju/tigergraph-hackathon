@@ -1,0 +1,430 @@
+{"pipeline": "rag", "qid": "pub-001", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-002", "answer": "Chen Ding", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-003", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "rag", "qid": "pub-004", "answer": "Men's 200 metres", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-005", "answer": "Naim Süleymanoğlu", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-006", "answer": "Rafaela Silva", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-007", "answer": "Renaud Lavillenie", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-008", "answer": "Open One Person Dinghy (Laser)", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-009", "answer": "26", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-010", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-011", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-012", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-013", "answer": "Allison Schmitt", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-014", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-015", "answer": "Dani King, Laura Trott, Joanna Rowsell", "judge": {"score": 1, "reason": "Names match exactly"}}
+{"pipeline": "rag", "qid": "pub-016", "answer": "Arnd Peiffer", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-017", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-018", "answer": "Kevin Jackson", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-019", "answer": "3", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-020", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-021", "answer": "Men's Super G", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-022", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-023", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-024", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-025", "answer": "23", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-026", "answer": "Jaroslav Kulhavý", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-027", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-028", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "rag", "qid": "pub-029", "answer": "28", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-030", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "rag", "qid": "pub-031", "answer": "Dmitry Berestov", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-032", "answer": "34", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-033", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-034", "answer": "23", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-035", "answer": "30", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-036", "answer": "Zou Shiming", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-037", "answer": "Men's 50 metre pistol", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-038", "answer": "Pyrros Dimas", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-039", "answer": "Sandra Perković", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-040", "answer": "Jason Lamy Chappuis", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-041", "answer": "Nino Schurter", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-042", "answer": "47", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-043", "answer": "Kjetil André Aamodt", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-044", "answer": "Men's épée", "judge": {"score": 1, "reason": "Exact match with gold answer"}}
+{"pipeline": "rag", "qid": "pub-045", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-046", "answer": "50", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-047", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-048", "answer": "Servet Tazegül", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-049", "answer": "Martin Fourcade", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-050", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "rag", "qid": "pub-051", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-052", "answer": "20", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-053", "answer": "Men's 50 metre pistol", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-054", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-055", "answer": "Hadi Saei", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-056", "answer": "Yevgeny Dementyev", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-057", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "rag", "qid": "pub-058", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "rag", "qid": "pub-059", "answer": "Laura Dahlmeier", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-060", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-061", "answer": "34", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-062", "answer": "Tirunesh Dibaba", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-063", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide an answer"}}
+{"pipeline": "rag", "qid": "pub-064", "answer": "Gabriela Szabo", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-065", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "rag", "qid": "pub-066", "answer": "Men's 82.5 kg", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-067", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-068", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-069", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "rag", "qid": "pub-070", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "rag", "qid": "pub-071", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-072", "answer": "Svetlana Zhurova", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-073", "answer": "Yang Ling", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-074", "answer": "17", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-075", "answer": "32", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-076", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "rag", "qid": "pub-077", "answer": "Kaillie Humphries", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-078", "answer": "2", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-079", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-080", "answer": "17", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-081", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-082", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "rag", "qid": "pub-083", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-084", "answer": "Men's épée", "judge": {"score": 1, "reason": "Prediction matches the gold answer exactly"}}
+{"pipeline": "rag", "qid": "pub-085", "answer": "Men's RS:X", "judge": {"score": 0, "reason": "Prediction does not match the gold answer"}}
+{"pipeline": "rag", "qid": "pub-086", "answer": "Shani Davis", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-087", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-088", "answer": "Men's giant slalom", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "rag", "qid": "pub-089", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "rag", "qid": "pub-090", "answer": "Karam Gaber", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "rag", "qid": "pub-091", "answer": "18", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-092", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number of events"}}
+{"pipeline": "rag", "qid": "pub-093", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "rag", "qid": "pub-094", "answer": "Oleg Kucherenko", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-095", "answer": "Valerie Vili", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-096", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-097", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-098", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-099", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "rag", "qid": "pub-100", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "graphrag", "qid": "pub-001", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-002", "answer": "Chen Ding", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-003", "answer": "2", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-004", "answer": "Men's 200 metres", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-005", "answer": "Naim Süleymanoğlu", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-006", "answer": "Rafaela Silva", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-007", "answer": "Renaud Lavillenie", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-008", "answer": "Laser", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-009", "answer": "26", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-010", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-011", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-012", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-013", "answer": "Allison Schmitt", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-014", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-015", "answer": "Dani King, Laura Trott, Joanna Rowsell", "judge": {"score": 1, "reason": "Names match exactly"}}
+{"pipeline": "graphrag", "qid": "pub-016", "answer": "Arnd Peiffer", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-017", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide an answer"}}
+{"pipeline": "graphrag", "qid": "pub-018", "answer": "Kevin Jackson", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-019", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "graphrag", "qid": "pub-020", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-021", "answer": "Men's Super G", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-022", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-023", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-024", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-025", "answer": "23", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-026", "answer": "Jaroslav Kulhavý", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-027", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-028", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "graphrag", "qid": "pub-029", "answer": "28", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-030", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-031", "answer": "Dmitry Berestov", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-032", "answer": "34", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-033", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-034", "answer": "23", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-035", "answer": "30", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-036", "answer": "Zou Shiming", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-037", "answer": "Men's 50 metre pistol", "judge": {"score": 0, "reason": "Prediction does not match the gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-038", "answer": "Pyrros Dimas", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-039", "answer": "Sandra Perković", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-040", "answer": "Jason Lamy Chappuis", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-041", "answer": "Nino Schurter", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-042", "answer": "47", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-043", "answer": "Kjetil André Aamodt", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-044", "answer": "Men's épée", "judge": {"score": 1, "reason": "Prediction matches the gold answer exactly."}}
+{"pipeline": "graphrag", "qid": "pub-045", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-046", "answer": "50", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-047", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-048", "answer": "Servet Tazegül", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-049", "answer": "Martin Fourcade", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-050", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "graphrag", "qid": "pub-051", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-052", "answer": "20", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-053", "answer": "Men's 50 metre pistol", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-054", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-055", "answer": "Hadi Saei", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-056", "answer": "Yevgeny Dementyev", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-057", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "graphrag", "qid": "pub-058", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-059", "answer": "Laura Dahlmeier", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-060", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-061", "answer": "34", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-062", "answer": "Tirunesh Dibaba", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-063", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction does not provide an answer"}}
+{"pipeline": "graphrag", "qid": "pub-064", "answer": "Gabriela Szabo", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-065", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "graphrag", "qid": "pub-066", "answer": "Men's 82.5 kg", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-067", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-068", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-069", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "graphrag", "qid": "pub-070", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-071", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-072", "answer": "Wang Meng", "judge": {"score": 0, "reason": "Prediction names wrong athlete for event"}}
+{"pipeline": "graphrag", "qid": "pub-073", "answer": "Yang Ling", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-074", "answer": "17", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-075", "answer": "32", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-076", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "graphrag", "qid": "pub-077", "answer": "Kaillie Humphries", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-078", "answer": "2", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-079", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is UNKNOWN, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-080", "answer": "17", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-081", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-082", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-083", "answer": "Lasse Kjus", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-084", "answer": "Men's épée", "judge": {"score": 1, "reason": "Prediction matches the gold answer exactly."}}
+{"pipeline": "graphrag", "qid": "pub-085", "answer": "Mixed 49er", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-086", "answer": "Shani Davis", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-087", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-088", "answer": "Men's giant slalom", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "graphrag", "qid": "pub-089", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-090", "answer": "Karam Gaber", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-091", "answer": "18", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-092", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "graphrag", "qid": "pub-093", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-094", "answer": "Oleg Kucherenko", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-095", "answer": "Valerie Vili", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-096", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-097", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-098", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-099", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is UNKNOWN, no answer given"}}
+{"pipeline": "graphrag", "qid": "pub-100", "answer": "UNKNOWN", "judge": {"score": 0, "reason": "Prediction is unknown"}}
+{"pipeline": "agentic", "qid": "pub-001", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-002", "answer": "Chen Ding", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-003", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-004", "answer": "generated_answer='' citation=[]", "judge": {"score": 0, "reason": "No answer provided"}}
+{"pipeline": "agentic", "qid": "pub-005", "answer": "Joachim Kunz", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-006", "answer": "Rafaela Silva", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-007", "answer": "Renaud Lavillenie", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-008", "answer": "The Soling event at the 2000 Summer Olympics had the highest number of competitors with 66 participants, compared to the Europe event with 27 competitors and the Laser event with 43 competitors.", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly."}}
+{"pipeline": "agentic", "qid": "pub-009", "answer": "26", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-010", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold answer"}}
+{"pipeline": "agentic", "qid": "pub-011", "answer": "Alexandre Bilodeau", "judge": {"score": 0, "reason": "Prediction name does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-012", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-013", "answer": "Allison Schmitt", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-014", "answer": "Simone Biles", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-015", "answer": "Dani King, Laura Trott, and Joanna Rowsell", "judge": {"score": 1, "reason": "Same team members named"}}
+{"pipeline": "agentic", "qid": "pub-016", "answer": "Arnd Peiffer", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-017", "answer": "Guo Wenjun", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-018", "answer": "Kevin Jackson", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-019", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-020", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-021", "answer": "Men's giant slalom (117 competitors)", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-022", "answer": "Nazyr Mankiev", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-023", "answer": "Kevin Young", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-024", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold answer"}}
+{"pipeline": "agentic", "qid": "pub-025", "answer": "22", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-026", "answer": "Jaroslav Kulhavý", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-027", "answer": "One fencing event at the 2008 Summer Olympics had more than 32 competitors.", "judge": {"score": 0, "reason": "Prediction states one, gold states four"}}
+{"pipeline": "agentic", "qid": "pub-028", "answer": "Aaron Peirsol", "judge": {"score": 0, "reason": "Prediction names wrong gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-029", "answer": "28", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-030", "answer": "The gold medal in the event held at Carioca Arena 3 on 6 August 2016 was won by the French team of Karim Laghouag, Thibaut Vallette, Mathieu Lemoine, and Astier Nicolas in Team eventing (equestrian).", "judge": {"score": 0, "reason": "Prediction names different winners than gold answer"}}
+{"pipeline": "agentic", "qid": "pub-031", "answer": "No gold medal was awarded at the Nikaia Olympic Weightlifting Hall on 24 August 2004 according to the provided data. The events held there around that date were on 21 August (Men's 85 kg), 23 August (Men's 94 kg), and other dates, but none on 24 August.", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-032", "answer": "34", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-033", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-034", "answer": "23", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-035", "answer": "30", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-036", "answer": "Zou Shiming", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-037", "answer": "The Men's 50 metre pistol event had 45 competitors, and the Men's skeet event had 41 competitors. Therefore, the Men's 50 metre pistol event had the highest number of competitors at the 2008 Summer Olympics.", "judge": {"score": 0, "reason": "Prediction names different event than gold answer"}}
+{"pipeline": "agentic", "qid": "pub-038", "answer": "Pyrros Dimas", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-039", "answer": "Stephanie Brown Trafton", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-040", "answer": "Jason Lamy Chappuis", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-041", "answer": "Nino Schurter", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-042", "answer": "47", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-043", "answer": "Kjetil André Aamodt", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-044", "answer": "The men's épée event at the 2008 Summer Olympics had 41 competitors, and the men's foil event had 26 competitors. The men's team épée event had 32 competitors. Therefore, the men's épée event had the highest number of competitors at the 2008 Summer Olympics.", "judge": {"score": 1, "reason": "Correct event with highest competitors stated"}}
+{"pipeline": "agentic", "qid": "pub-045", "answer": "2", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-046", "answer": "50", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-047", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-048", "answer": "Son Tae-Jin", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-049", "answer": "Martin Fourcade", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-050", "answer": "Aljona Savchenko and Bruno Massot", "judge": {"score": 0, "reason": "Prediction names different athletes"}}
+{"pipeline": "agentic", "qid": "pub-051", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-052", "answer": "20", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-053", "answer": "The Women's 10 metre air pistol event at the 2016 Summer Olympics had the highest number of competitors, with 44 participants.", "judge": {"score": 0, "reason": "Prediction names wrong event"}}
+{"pipeline": "agentic", "qid": "pub-054", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-055", "answer": "Steven López", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-056", "answer": "Yevgeny Dementyev", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-057", "answer": "Veronica Campbell-Brown", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-058", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-059", "answer": "Laura Dahlmeier", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-060", "answer": "Song Dae-Nam", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-061", "answer": "34", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-062", "answer": "Tirunesh Dibaba", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-063", "answer": "36", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-064", "answer": "Gabriela Szabo", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-065", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-066", "answer": "generated_answer='' citation=[]", "judge": {"score": 0, "reason": "No answer provided"}}
+{"pipeline": "agentic", "qid": "pub-067", "answer": "Philip Hindes, Chris Hoy, and Jason Kenny", "judge": {"score": 0, "reason": "Prediction names differ from gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-068", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-069", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-070", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-071", "answer": "24", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-072", "answer": "Wang Meng", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-073", "answer": "Yang Ling", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-074", "answer": "17", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-075", "answer": "30", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-076", "answer": "Benjamin Raich", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-077", "answer": "Kaillie Humphries", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-078", "answer": "2", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-079", "answer": "Jan Ullrich", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-080", "answer": "17", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-081", "answer": "Pang Wei", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-082", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-083", "answer": "Lasse Kjus", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-084", "answer": "Men's épée had 70 competitors, Men's team épée had 60 competitors, Men's team foil had 59 competitors, Women's foil had 46 competitors, and Men's sabre had 44 competitors. Therefore, the fencing event with the highest number of competitors at the 1992 Summer Olympics was Men's épée with 70 competitors.", "judge": {"score": 1, "reason": "Correct event with highest competitors stated"}}
+{"pipeline": "agentic", "qid": "pub-085", "answer": "The Soling event at the 1992 Summer Olympics had 72 competitors, the Soling event at the 1996 Summer Olympics had 66 competitors, the Soling event at the 1988 Summer Olympics had 63 competitors, and the Mixed 49er event at the 2008 Summer Olympics had 38 competitors. Therefore, the Soling event at the 1992 Summer Olympics had the highest number of competitors with 72.", "judge": {"score": 0, "reason": "Prediction discusses other years, not 2008 event"}}
+{"pipeline": "agentic", "qid": "pub-086", "answer": "Shani Davis", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-087", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-088", "answer": "Men's giant slalom (131 competitors)", "judge": {"score": 1, "reason": "Same event and details provided"}}
+{"pipeline": "agentic", "qid": "pub-089", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-090", "answer": "Karam Gaber", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-091", "answer": "18", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-092", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-093", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-094", "answer": "Oleg Kucherenko", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-095", "answer": "Carol Huynh", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-096", "answer": "Chen Ruolin and Liu Huixia", "judge": {"score": 0, "reason": "Prediction names differ from gold answer"}}
+{"pipeline": "agentic", "qid": "pub-097", "answer": "Yana Shemyakina", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-098", "answer": "Yermakhan Ibraimov", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-099", "answer": "Erik Lesser, Daniel Böhm, Arnd Peiffer, Simon Schempp", "judge": {"score": 1, "reason": "All names match gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-100", "answer": "Missy Franklin", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-001", "answer": "3", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-003", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-004", "answer": "Men's 200 metres", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-005", "answer": "Naim Süleymanoğlu", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-008", "answer": "The sailing events at the 2000 Summer Olympics had the following number of competitors:\n- Soling: 48 competitors\n- Laser: 43 competitors\n- Star: 32 competitors\n- Europe: 27 competitors\n- Finn: 25 competitors", "judge": {"score": 1, "reason": "Prediction correctly identifies Soling with highest competitors"}}
+{"pipeline": "agentic", "qid": "pub-010", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-011", "answer": "Martina Sáblíková", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-014", "answer": "Sohrab Moradi", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-015", "answer": "Dani King, Laura Trott, Joanna Rowsell", "judge": {"score": 1, "reason": "Names match exactly"}}
+{"pipeline": "agentic", "qid": "pub-019", "answer": "3", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-020", "answer": "2", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-021", "answer": "Men's giant slalom", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-022", "answer": "Son Tae-Jin", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-023", "answer": "Valentina Yegorova", "judge": {"score": 0, "reason": "Prediction name does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-024", "answer": "3", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-025", "answer": "23", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-027", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-028", "answer": "No gold medal event was held at the Olympic Aquatic Centre on August 14, 2004. The events with heats and finals held at the Olympic Aquatic Centre around that date were on August 15-16, August 16-17, and August 17-19. For example, the Men's 200 metre freestyle event took place on August 15 (heats & semifinals) and August 16 (final), with Ian Thorpe winning gold.", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-030", "answer": "Emese Szász", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-031", "answer": "Dmitry Berestov", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-033", "answer": "3", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-037", "answer": "Men's 50 metre pistol", "judge": {"score": 0, "reason": "Prediction does not match the gold answer"}}
+{"pipeline": "agentic", "qid": "pub-039", "answer": "Sandra Perković", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-044", "answer": "The fencing events at the 2008 Summer Olympics had the following number of competitors:\n- Men's foil: 26 competitors\n- Men's team épée: 32 competitors\n- Men's épée: 41 competitors\n- Men's sabre: 40 competitors\n- Men's team sabre: 25 competitors", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-045", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-048", "answer": "Servet Tazegül", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-050", "answer": "Lee Sang-hwa", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-053", "answer": "Men's 50 metre pistol", "judge": {"score": 0, "reason": "Prediction does not match the gold answer"}}
+{"pipeline": "agentic", "qid": "pub-055", "answer": "Hadi Saei", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-060", "answer": "Arsen Galstyan", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-063", "answer": "39", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-065", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-066", "answer": "The Men's 82.5 kg weightlifting event at the 1992 Summer Olympics had the highest number of competitors with 31 participants.", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-067", "answer": "No gold medal was awarded at the North Greenwich Arena on 4 August during the 2012 Summer Olympics.", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-070", "answer": "3", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-072", "answer": "Lee Sang-hwa", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-075", "answer": "32", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-076", "answer": "Kjetil André Aamodt", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-079", "answer": "No gold medalist is recorded for an event held at Centennial Parklands, Sydney on 26 September at the 2000 Summer Olympics in the provided contexts.", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-082", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-084", "answer": "Men's épée with 70 competitors", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-085", "answer": "Men's 470 with 58 competitors", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-087", "answer": "0", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-088", "answer": "Men's giant slalom had the highest number of competitors with 131 participants.", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly."}}
+{"pipeline": "agentic", "qid": "pub-089", "answer": "3", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-092", "answer": "3", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-093", "answer": "4", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-095", "answer": "Valerie Vili", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-096", "answer": "The gold medal was originally won by Nijat Rahimov, but he was disqualified in March 2022 for a doping violation. As of now, the gold medal is vacant and has not been reallocated.", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-097", "answer": "Laura Flessel-Colovic", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-098", "answer": "Hossein Tavakkoli", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-099", "answer": "Erik LesserDaniel BöhmArnd PeifferSimon Schempp", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-001", "answer": "5", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-003", "answer": "8", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-004", "answer": "Men's 110 metres hurdles", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-008", "answer": "Sailing at the 2000 Summer Olympics – Soling", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-010", "answer": "4", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-012", "answer": "6", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-020", "answer": "4", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-027", "answer": "4", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-033", "answer": "1", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-037", "answer": "Shooting at the 2008 Summer Olympics – Men's 50 metre rifle prone", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-044", "answer": "Fencing at the 2008 Summer Olympics – Men's épée", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-045", "answer": "18", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-048", "answer": "Hadi Saei", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-051", "answer": "6", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-053", "answer": "Shooting at the 2016 Summer Olympics – Women's 10 metre air rifle", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-057", "answer": "Allyson Felix", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-058", "answer": "5", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-065", "answer": "5", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-066", "answer": "Weightlifting at the 1992 Summer Olympics – Men's 75 kg", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-067", "answer": "Rosannagh MacLennan", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-069", "answer": "3", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-079", "answer": "Leontien Zijlaard", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-081", "answer": "Jin Jong-oh", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-082", "answer": "12", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-084", "answer": "Men's épée", "judge": {"score": 1, "reason": "Prediction matches the gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-085", "answer": "The sailing events at the 2008 Summer Olympics had the following number of competitors:\n- Men's 470: 58\n- Yngling: 45\n- Laser: 43\n- 49er: 38\n- Women's 470: 38\n- Men's RS:X: 35\n- Star: 32\n- Tornado: 30\n- Laser Radial: 28\n- Women's RS:X: 27\n- Finn: 26", "judge": {"score": 1, "reason": "Prediction correctly identifies Men's 470 as highest"}}
+{"pipeline": "agentic", "qid": "pub-087", "answer": "16", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-088", "answer": "Alpine skiing at the 1992 Winter Olympics – Men's giant slalom", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-089", "answer": "5", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-092", "answer": "5", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-096", "answer": "Lü Xiaojun", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-097", "answer": "Yana Egorian", "judge": {"score": 0, "reason": "Prediction name does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-098", "answer": "Pyrros Dimas", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-004", "answer": "Athletics at the 2008 Summer Olympics – Men's marathon", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-008", "answer": "The sailing event at the 2000 Summer Olympics with the highest number of competitors was the Soling event, with 48 competitors.", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-011", "answer": "No gold medal was awarded at the Richmond Olympic Oval on 14 February 2010, as no event took place on that date. The men's 5000 metres speed skating event was held there on 13 February 2010, and the gold medal was won by Sven Kramer.", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-017", "answer": "Alin Moldoveanu", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-021", "answer": "Men's slalom with 109 competitors", "judge": {"score": 0, "reason": "Prediction does not match gold event"}}
+{"pipeline": "agentic", "qid": "pub-027", "answer": "3", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-030", "answer": "No event held at Carioca Arena 3 on 6 August 2016 is listed in the provided contexts.", "judge": {"score": 0, "reason": "Prediction states no event, gold names winner"}}
+{"pipeline": "agentic", "qid": "pub-044", "answer": "Men's épée with 41 competitors", "judge": {"score": 1, "reason": "Correct event and competitor count"}}
+{"pipeline": "agentic", "qid": "pub-045", "answer": "19", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-050", "answer": "Yuzuru Hanyu", "judge": {"score": 0, "reason": "Prediction names different athlete than gold"}}
+{"pipeline": "agentic", "qid": "pub-058", "answer": "4", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-063", "answer": "41", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-066", "answer": "Weightlifting at the 1992 Summer Olympics – Men's 75 kg with 34 competitors", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-067", "answer": "Steve Guerdat", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-072", "answer": "Svetlana Zhurova", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-076", "answer": "Antoine Dénériaz", "judge": {"score": 0, "reason": "Prediction name does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-078", "answer": "7", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-085", "answer": "Sailing at the 2008 Summer Olympics – Men's 470", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-088", "answer": "Men's giant slalom", "judge": {"score": 1, "reason": "Prediction matches the gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-092", "answer": "4", "judge": {"score": 0, "reason": "Prediction less than gold number"}}
+{"pipeline": "agentic", "qid": "pub-096", "answer": "Shi Zhiyong", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-097", "answer": "Li Na", "judge": {"score": 0, "reason": "Prediction name does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-098", "answer": "Tara Nott", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-099", "answer": "Martin Fourcade", "judge": {"score": 0, "reason": "Prediction does not match gold medal winners"}}
+{"pipeline": "agentic", "qid": "pub-017", "answer": "Yi Siling", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-030", "answer": "No event held at Carioca Arena 3 on 6 August 2016 with a gold medal winner is identified in the provided contexts.", "judge": {"score": 0, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "agentic", "qid": "pub-031", "answer": "Milen Dobrev", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-039", "answer": "Natalya Sadova", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-060", "answer": "Om Yun-chol", "judge": {"score": 0, "reason": "Prediction names different athlete than gold answer"}}
+{"pipeline": "agentic", "qid": "pub-076", "answer": "Julia Mancuso", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-081", "answer": "Guo Wenjun", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-096", "answer": "Fazliddin Gaibnazarov", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-099", "answer": "Vita Semerenko, Juliya Dzhyma, Valentyna Semerenko, Olena Pidhrushna", "judge": {"score": 0, "reason": "Prediction names do not match gold medalists"}}
+{"pipeline": "agentic", "qid": "pub-022", "answer": "No gold medalist information is available for an event held at Beijing Science and Technology University Gymnasium on August 12, 2008.", "judge": {"score": 0, "reason": "Prediction lacks gold medalist information"}}
+{"pipeline": "agentic", "qid": "pub-028", "answer": "No gold medal event with heats and final was held on August 14, 2004, at the Olympic Aquatic Centre. The events with heats and finals around that date were held on August 15-16 and later. For example, the Men's 200 metre freestyle event took place on August 15 (heats & semifinals) and August 16 (final), with Ian Thorpe winning gold.", "judge": {"score": 0, "reason": "Prediction denies event on that date"}}
+{"pipeline": "agentic", "qid": "pub-060", "answer": "Lucie Décosse", "judge": {"score": 0, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "agentic", "qid": "pub-067", "answer": "rosannagh_maclennan", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-004", "answer": "Men's marathon (95 competitors)", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-008", "answer": "The Soling event at the 2000 Summer Olympics had the highest number of competitors with 48 sailors, compared to Laser with 43, Star with 32, Europe with 27, and Finn with 25.", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-023", "answer": "Hwang Young-Cho", "judge": {"score": 1, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-028", "answer": "Michael Phelps, Ryan Lochte, Peter Vanderkaay, Klete Keller, Scott Goldblatt*, Dan Ketchum* (USA) won the gold medal in the event held at Olympic Aquatic Centre on August 14, 2004 (heats & final).", "judge": {"score": 0.5, "reason": "Prediction includes correct winner plus extra names"}}
+{"pipeline": "agentic", "qid": "pub-037", "answer": "The shooting event at the 2008 Summer Olympics with the highest number of competitors was the Men's 50 metre rifle prone, with 56 competitors.", "judge": {"score": 1, "reason": "Prediction matches gold answer exactly."}}
+{"pipeline": "agentic", "qid": "pub-044", "answer": "Men's épée", "judge": {"score": 1, "reason": "Prediction matches the gold answer exactly"}}
+{"pipeline": "agentic", "qid": "pub-055", "answer": "Carlo Molfetta", "judge": {"score": 0, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-085", "answer": "The sailing events at the 2008 Summer Olympics had the following number of competitors:\n- Men's 470: 58 competitors\n- Men's Laser: 43 competitors\n- Mixed 49er: 38 competitors\n- Men's RS:X: 35 competitors\n- Mixed Finn: 26 competitors", "judge": {"score": 1, "reason": "Prediction correctly identifies Men's 470 as highest"}}

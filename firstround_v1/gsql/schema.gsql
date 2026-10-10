@@ -1,0 +1,35 @@
+// OlympicsKG schema: a typed knowledge graph built from the corpus infoboxes,
+// plus a chunk layer (with TigerVector embeddings) for similarity search.
+// Vector attributes are added in a second job (TigerGraph requires the vertex to exist first).
+CREATE GRAPH OlympicsKG()
+USE GRAPH OlympicsKG
+CREATE SCHEMA_CHANGE JOB build_schema FOR GRAPH OlympicsKG {
+  ADD VERTEX Document(PRIMARY_ID id STRING, title STRING, url STRING, infobox_kind STRING, approx_tokens INT, text STRING) WITH primary_id_as_attribute="true";
+  ADD VERTEX Chunk(PRIMARY_ID id STRING, doc_id STRING, doc_title STRING, seq INT, text STRING) WITH primary_id_as_attribute="true";
+  ADD VERTEX Games(PRIMARY_ID id STRING, year INT, season STRING) WITH primary_id_as_attribute="true";
+  ADD VERTEX Sport(PRIMARY_ID id STRING, name STRING) WITH primary_id_as_attribute="true";
+  ADD VERTEX Event(PRIMARY_ID id STRING, title STRING, event_name STRING, sport STRING, games STRING, year INT, season STRING, gender STRING, competitors INT, nations INT, date STRING, venue STRING, win_value STRING, gold STRING) WITH primary_id_as_attribute="true";
+  ADD VERTEX Venue(PRIMARY_ID id STRING, name STRING) WITH primary_id_as_attribute="true";
+  ADD VERTEX Competitor(PRIMARY_ID id STRING, name STRING) WITH primary_id_as_attribute="true";
+  ADD VERTEX NOC(PRIMARY_ID id STRING) WITH primary_id_as_attribute="true";
+
+  ADD DIRECTED EDGE HAS_CHUNK(FROM Document, TO Chunk) WITH REVERSE_EDGE="CHUNK_OF";
+  ADD DIRECTED EDGE DESCRIBES(FROM Document, TO Event) WITH REVERSE_EDGE="DESCRIBED_BY";
+  ADD DIRECTED EDGE AT_GAMES(FROM Event, TO Games) WITH REVERSE_EDGE="HOSTED_EVENT";
+  ADD DIRECTED EDGE OF_SPORT(FROM Event, TO Sport) WITH REVERSE_EDGE="SPORT_EVENT";
+  ADD DIRECTED EDGE HELD_AT(FROM Event, TO Venue) WITH REVERSE_EDGE="VENUE_OF";
+  ADD DIRECTED EDGE WON_MEDAL(FROM Competitor, TO Event, medal STRING) WITH REVERSE_EDGE="MEDAL_WON_BY";
+  ADD DIRECTED EDGE REPRESENTS(FROM Competitor, TO NOC) WITH REVERSE_EDGE="REPRESENTED_BY";
+  ADD DIRECTED EDGE NEXT_GAMES(FROM Games, TO Games) WITH REVERSE_EDGE="PREV_GAMES";
+  ADD DIRECTED EDGE NEXT_EDITION(FROM Event, TO Event) WITH REVERSE_EDGE="PREV_EDITION";
+}
+RUN SCHEMA_CHANGE JOB build_schema
+DROP JOB build_schema
+CREATE SCHEMA_CHANGE JOB add_vectors FOR GRAPH OlympicsKG {
+  ALTER VERTEX Chunk ADD VECTOR ATTRIBUTE emb(DIMENSION=1536, METRIC="COSINE");
+  ALTER VERTEX Event ADD VECTOR ATTRIBUTE emb(DIMENSION=1536, METRIC="COSINE");
+  ALTER VERTEX Venue ADD VECTOR ATTRIBUTE emb(DIMENSION=1536, METRIC="COSINE");
+  ALTER VERTEX Competitor ADD VECTOR ATTRIBUTE emb(DIMENSION=1536, METRIC="COSINE");
+}
+RUN SCHEMA_CHANGE JOB add_vectors
+DROP JOB add_vectors

@@ -1,0 +1,105 @@
+USE GRAPH OlympicsKG
+
+// ---------- similarity search (TigerVector) ----------
+CREATE OR REPLACE QUERY vs_chunks(LIST<FLOAT> qv, INT k) {
+  MapAccum<VERTEX, FLOAT> @@dist;
+  R = vectorSearch({Chunk.emb}, qv, k, {distance_map: @@dist});
+  PRINT R[R.doc_id, R.doc_title, R.seq, R.text] AS chunks;
+  PRINT @@dist AS dist;
+}
+
+CREATE OR REPLACE QUERY vs_event(LIST<FLOAT> qv, INT k) {
+  MapAccum<VERTEX, FLOAT> @@dist;
+  R = vectorSearch({Event.emb}, qv, k, {distance_map: @@dist});
+  PRINT R[R.title, R.games, R.sport, R.venue, R.date] AS hits;
+  PRINT @@dist AS dist;
+}
+
+CREATE OR REPLACE QUERY vs_venue(LIST<FLOAT> qv, INT k) {
+  MapAccum<VERTEX, FLOAT> @@dist;
+  R = vectorSearch({Venue.emb}, qv, k, {distance_map: @@dist});
+  PRINT R[R.name] AS hits;
+  PRINT @@dist AS dist;
+}
+
+CREATE OR REPLACE QUERY vs_competitor(LIST<FLOAT> qv, INT k) {
+  MapAccum<VERTEX, FLOAT> @@dist;
+  R = vectorSearch({Competitor.emb}, qv, k, {distance_map: @@dist});
+  PRINT R[R.name] AS hits;
+  PRINT @@dist AS dist;
+}
+
+// ---------- graph traversal ----------
+// Full 1-hop profile of an event: games, venue, medallists, previous / next edition.
+CREATE OR REPLACE QUERY event_profile(VERTEX<Event> e) {
+  ListAccum<STRING> @medals;
+  S = {e};
+  Medalists = SELECT c FROM S:s -(MEDAL_WON_BY:w)-> Competitor:c ACCUM c.@medals += w.medal;
+  Prev = SELECT p FROM S:s -(PREV_EDITION)-> Event:p;
+  Nxt = SELECT n FROM S:s -(NEXT_EDITION)-> Event:n;
+  PRINT S[S.title, S.sport, S.games, S.venue, S.date, S.competitors, S.nations, S.win_value, S.gold] AS event;
+  PRINT Medalists[Medalists.name, Medalists.@medals] AS medalists;
+  PRINT Prev[Prev.title, Prev.games, Prev.gold] AS previous_edition;
+  PRINT Nxt[Nxt.title, Nxt.games, Nxt.gold] AS next_edition;
+}
+
+// Events of one sport (or all, sport="") at one Games, with an in-graph aggregation.
+CREATE OR REPLACE QUERY games_events(VERTEX<Games> g, STRING sport, INT min_competitors) {
+  SumAccum<INT> @@n_total, @@n_above;
+  MaxAccum<INT> @@max_competitors;
+  G = {g};
+  E = SELECT e FROM G:s -(HOSTED_EVENT)-> Event:e
+      WHERE sport == "" OR lower(e.sport) == lower(sport)
+      POST-ACCUM @@n_total += 1,
+                 IF e.competitors > min_competitors THEN @@n_above += 1 END,
+                 @@max_competitors += e.competitors
+      ORDER BY e.competitors DESC;
+  PRINT @@n_total AS n_events, @@n_above AS n_above_threshold, @@max_competitors AS max_competitors;
+  PRINT E[E.title, E.competitors, E.nations, E.date, E.venue, E.gold] AS events;
+}
+
+// All events held at a venue (any Games), with date and gold medallist.
+CREATE OR REPLACE QUERY venue_events(VERTEX<Venue> v) {
+  V = {v};
+  E = SELECT e FROM V:s -(VENUE_OF)-> Event:e ORDER BY e.year ASC;
+  PRINT V[V.name] AS venue;
+  PRINT E[E.title, E.games, E.date, E.gold] AS events;
+}
+
+// Previous / next Games of the same season.
+CREATE OR REPLACE QUERY adjacent_games(VERTEX<Games> g) {
+  G = {g};
+  P = SELECT p FROM G:s -(PREV_GAMES)-> Games:p;
+  N = SELECT n FROM G:s -(NEXT_GAMES)-> Games:n;
+  PRINT P[P.year, P.season] AS previous, N[N.year, N.season] AS next;
+}
+
+// Medals won by a competitor.
+CREATE OR REPLACE QUERY competitor_medals(VERTEX<Competitor> c) {
+  ListAccum<STRING> @medal;
+  C = {c};
+  E = SELECT e FROM C:s -(WON_MEDAL:w)-> Event:e ACCUM e.@medal += w.medal;
+  PRINT C[C.name] AS competitor;
+  PRINT E[E.title, E.games, E.date, E.@medal] AS medals;
+}
+
+// Generic 1-hop expansion over semantic edges, used by the single-pass GraphRAG pipeline.
+CREATE OR REPLACE QUERY expand_seeds(SET<VERTEX> seeds) {
+  ListAccum<STRING> @@triples;
+  S = {seeds};
+  N = SELECT t FROM S:s -((AT_GAMES|HELD_AT|VENUE_OF|MEDAL_WON_BY|WON_MEDAL|PREV_EDITION|NEXT_EDITION|OF_SPORT):e)-> :t
+      ACCUM @@triples += (s.id + " -" + e.type + "-> " + t.id);
+  E = SELECT t FROM N:t WHERE t.type == "Event";
+  PRINT @@triples AS triples;
+  PRINT E[E.title, E.games, E.venue, E.date, E.competitors, E.nations, E.gold] AS events;
+}
+
+// Documents' full text / chunks for citation retrieval.
+CREATE OR REPLACE QUERY doc_chunks(VERTEX<Document> d) {
+  D = {d};
+  C = SELECT c FROM D:s -(HAS_CHUNK)-> Chunk:c ORDER BY c.seq ASC;
+  PRINT D[D.title, D.url] AS doc;
+  PRINT C[C.seq, C.text] AS chunks;
+}
+
+INSTALL QUERY ALL

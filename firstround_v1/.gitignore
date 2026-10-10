@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.ipynb_checkpoints/
+results/dashboard_fragment.html

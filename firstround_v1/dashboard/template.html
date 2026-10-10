@@ -1,0 +1,314 @@
+<title>When Agents Matter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#f5f7f6; --panel:#ffffff; --ink:#121716; --ink2:#4b5552; --muted:#76807d; --rule:#dce2df; --rule2:#eef1ef;
+  --accent:#0e6b58; --accent-soft:#e3f1ec;
+  --s-rag:#2a78d6; --s-graphrag:#eb6834; --s-agentic:#1baf7a; --s-tg_classic:#e87ba4; --s-tg_agentic:#eda100;
+  --good:#1d7a3b; --good-bg:#e4f3e8; --warn:#9a6300; --warn-bg:#fbf0d9; --bad:#b3372e; --bad-bg:#fbe6e3;
+  --font-d:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --font-b:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-m:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#101413; --panel:#171c1b; --ink:#edf1ef; --ink2:#b5bfbc; --muted:#86918e; --rule:#2a3230; --rule2:#1f2524;
+    --accent:#4cc3a0; --accent-soft:#16302a;
+    --s-rag:#3987e5; --s-graphrag:#d95926; --s-agentic:#199e70; --s-tg_classic:#d55181; --s-tg_agentic:#c98500;
+    --good:#6fd08f; --good-bg:#15301f; --warn:#e3b04f; --warn-bg:#342913; --bad:#f08a80; --bad-bg:#3a1c19;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#101413; --panel:#171c1b; --ink:#edf1ef; --ink2:#b5bfbc; --muted:#86918e; --rule:#2a3230; --rule2:#1f2524;
+  --accent:#4cc3a0; --accent-soft:#16302a;
+  --s-rag:#3987e5; --s-graphrag:#d95926; --s-agentic:#199e70; --s-tg_classic:#d55181; --s-tg_agentic:#c98500;
+  --good:#6fd08f; --good-bg:#15301f; --warn:#e3b04f; --warn-bg:#342913; --bad:#f08a80; --bad-bg:#3a1c19;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-b);font-size:15px;line-height:1.5;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:32px 20px 64px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--font-d);text-wrap:balance;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(30px,5vw,46px);line-height:1.05;font-weight:700}
+h2{font-size:22px;font-weight:600}
+h3{font-size:15px;font-weight:600;font-family:var(--font-b)}
+p{margin:0}
+.eyebrow{font-family:var(--font-m);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.lede{font-size:17px;color:var(--ink2);max-width:68ch}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-family:var(--font-m);font-size:12.5px;color:var(--muted)}
+.num{font-family:var(--font-m);font-variant-numeric:tabular-nums}
+header{display:flex;flex-direction:column;gap:14px}
+section{display:flex;flex-direction:column;gap:16px}
+.sec-head{display:flex;flex-direction:column;gap:4px}
+.sec-head p{color:var(--ink2);max-width:75ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:14px}
+.card-top{display:flex;align-items:center;gap:10px}
+.swatch{width:12px;height:12px;border-radius:3px;flex:none}
+.card-top h3{font-family:var(--font-d);font-size:18px}
+.card-top .tag{margin-left:auto;font-size:12px;color:var(--muted)}
+.big{font-family:var(--font-d);font-size:44px;font-weight:700;line-height:1}
+.big small{font-size:16px;font-weight:500;color:var(--muted);margin-left:4px}
+.kv{display:grid;grid-template-columns:1fr auto;gap:6px 12px;font-size:13.5px}
+.kv dt{color:var(--ink2)} .kv dd{margin:0;text-align:right;font-family:var(--font-m);font-variant-numeric:tabular-nums}
+.panel{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:18px}
+.grid1{display:grid;grid-template-columns:1fr;gap:16px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--ink2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.chart-title{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.chart{width:100%;overflow-x:auto}
+svg text{font-family:var(--font-b)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th{font-weight:600;text-align:left;color:var(--ink2);font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding:8px 10px;border-bottom:1px solid var(--rule);white-space:nowrap}
+td{padding:9px 10px;border-bottom:1px solid var(--rule2);vertical-align:top}
+td.n,th.n{text-align:right;font-family:var(--font-m);font-variant-numeric:tabular-nums}
+.chip{display:inline-flex;align-items:center;gap:5px;border-radius:999px;padding:2px 9px;font-size:12px;font-weight:600;white-space:nowrap}
+.chip.good{background:var(--good-bg);color:var(--good)} .chip.warn{background:var(--warn-bg);color:var(--warn)} .chip.bad{background:var(--bad-bg);color:var(--bad)}
+.chip.neutral{background:var(--rule2);color:var(--ink2)}
+.path{font-family:var(--font-m);font-size:12px;color:var(--ink2)}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+select,input[type=search]{font:inherit;font-size:14px;color:var(--ink);background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:7px 10px}
+input[type=search]{min-width:0;flex:1 1 220px}
+select:focus-visible,input:focus-visible,button:focus-visible,tr:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.qrow{cursor:pointer} .qrow:hover td{background:var(--rule2)}
+.qtext{max-width:52ch}
+.detail td{background:var(--bg);padding:14px}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:12px}
+.ans{border:1px solid var(--rule);border-radius:8px;padding:10px;background:var(--panel);display:flex;flex-direction:column;gap:6px}
+.ans .lbl{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+.timeline{display:flex;flex-direction:column;gap:6px;font-size:13px}
+.tl{display:grid;grid-template-columns:62px 140px 1fr;gap:10px;align-items:baseline}
+.tl .t{font-family:var(--font-m);color:var(--muted);font-size:12px;text-align:right}
+.tl .who{font-family:var(--font-m);font-size:12px;color:var(--accent)}
+.tl code{font-family:var(--font-m);font-size:12px;background:var(--rule2);padding:1px 5px;border-radius:4px;word-break:break-word}
+.tl .why{color:var(--ink2)}
+.tl.sys .who{color:var(--warn)}
+.hint{font-size:12.5px;color:var(--muted)}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12.5px;padding:6px 9px;border-radius:6px;z-index:9;max-width:260px;line-height:1.35}
+.finding{border-left:3px solid var(--accent);padding:4px 0 4px 14px;color:var(--ink)}
+footer{font-size:12.5px;color:var(--muted);border-top:1px solid var(--rule);padding-top:16px}
+@media (max-width:560px){.tl{grid-template-columns:52px 1fr}.tl .who{grid-column:2}.tl .why,.tl .body{grid-column:2}}
+@media (prefers-reduced-motion:no-preference){.bar{transition:opacity .15s}}
+</style>
+<!--BODY-->
+<div class="wrap">
+  <header>
+    <div class="eyebrow">TigerGraph Agentic GraphRAG Hackathon · Round 1 benchmark</div>
+    <h1>When does a question need an agent?</h1>
+    <p class="lede" id="lede"></p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <section>
+    <div class="sec-head"><h2 id="h-cards">Pipelines on the same 100 questions</h2>
+      <p>Accuracy is graded by exact match, then an LLM judge for near-matches. Tokens include LLM input, output and query embeddings. Tokens per correct answer divides total tokens by accuracy.</p></div>
+    <div class="cards" id="cards"></div>
+    <p class="hint" id="tg-note" hidden>TigerGraph service tokens are the LLM input and output tokens it reports; it does not report embedding tokens. Its answers are full sentences, so exact match understates it; accuracy uses the LLM judge.</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Where the gap opens</h2>
+      <p>Accuracy and cost by question type. Lookups are easy for every pipeline; counting and "most competitors" questions need a scan of every event, which similarity retrieval cannot do.</p></div>
+    <div class="legend" id="legend"></div>
+    <div class="grid1">
+      <div class="panel"><div class="chart-title"><h3>Accuracy by question type</h3><span class="hint">share of questions correct</span></div><div class="chart" id="c-acc"></div></div>
+      <div class="panel"><div class="chart-title"><h3>Tokens per question</h3><span class="hint">mean, all LLM + embedding tokens</span></div><div class="chart" id="c-tok"></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Verdict by question type</h2>
+      <p>An agent is <em>required</em> when no single-pass pipeline reaches 90% accuracy. It is <em>optional</em> when a single retrieval already answers reliably, so the extra planning buys little.</p></div>
+    <div class="panel scroll"><table id="verdict"></table></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>How the agent investigates</h2>
+      <p>The orchestrator chooses tools per question. Deterministic agents (entity linking, traversal, aggregation) cost no LLM tokens; the LLM is spent on planning and, only when grounding fails, on evidence evaluation.</p></div>
+    <div class="grid2">
+      <div class="panel scroll"><div class="chart-title"><h3>Investigation path per type</h3><span class="hint">most common tool sequence</span></div><table id="paths"></table></div>
+      <div class="panel"><div class="chart-title"><h3>Specialised agent invocations</h3><span class="hint">calls over 100 questions; hover for tokens and time</span></div><div class="chart" id="c-agents"></div><div class="hint" id="stops" style="margin-top:10px"></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Hidden set (50 questions)</h2>
+      <p>No answer key is published for these, so only cost and reliability are shown. Raw answers, tokens and traces are in <code>results/hidden/</code>.</p></div>
+    <div class="panel scroll"><table id="hidden"></table></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Question explorer</h2><p>Select a question to compare the three answers and replay the agent's investigation.</p></div>
+    <div class="controls">
+      <label class="hint" for="f-type">Type</label><select id="f-type"></select>
+      <label class="hint" for="f-out">Outcome</label>
+      <select id="f-out"><option value="all">All questions</option><option value="agent-only">Only the agent is right</option><option value="all-right">All pipelines right</option><option value="any-wrong">Some pipeline wrong</option></select>
+      <input type="search" id="f-q" placeholder="Search question text" aria-label="Search question text">
+    </div>
+    <div class="panel scroll"><table id="qs"></table></div>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+<div id="tip" hidden></div>
+<script>
+const D = /*__DATA__*/null;
+const P = D.pipes;
+const NAME = {rag:"RAG", graphrag:"GraphRAG", agentic:"Agentic GraphRAG", tg_classic:"TigerGraph GraphRAG · Classic", tg_agentic:"TigerGraph GraphRAG · Agentic"};
+const KIND = {rag:"ours · single pass", graphrag:"ours · single pass", agentic:"ours · multi-step agent", tg_classic:"TigerGraph service · single pass", tg_agentic:"TigerGraph service · planned agent"};
+const SINGLE = P.filter(p => ["rag", "graphrag", "tg_classic"].includes(p));
+const TNAME = {aggregation:"Aggregation", lookup:"Lookup", multi_hop:"Multi-hop", superlative:"Superlative", temporal:"Temporal"};
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pct = v => Math.round(v * 100) + "%";
+const fmt = v => Math.round(v).toLocaleString("en-US");
+const bq = (p, t) => D.by_qtype[p + "|" + t] || {};
+const cv = p => `var(--s-${p})`;
+
+// ---------- header
+const o = D.overall;
+const best = P.filter(p => p !== "agentic").reduce((a, b) => o[a].accuracy >= o[b].accuracy ? a : b);
+const needAgent = D.types.filter(t => SINGLE.every(p => (bq(p, t).accuracy ?? 0) < .9)).map(t => TNAME[t].toLowerCase());
+$("#lede").textContent = `Agentic GraphRAG answered ${pct(o.agentic.accuracy)} of the public questions, against ${pct(o[best].accuracy)} for the next best pipeline (${NAME[best]}), while spending ${fmt(o.agentic.avg_total_tokens)} tokens per question versus ${fmt(o[best].avg_total_tokens)}. ` +
+  (needAgent.length ? `An agent is required for ${needAgent.join(", ").replace(/, ([^,]*)$/, " and $1")} questions; elsewhere a single retrieval is already reliable.` : "");
+$("#meta").innerHTML = [`LLM ${esc(D.model)}`, `embeddings ${esc(D.embed_model)}`, `graph TigerGraph + TigerVector`, `100 public · 50 hidden questions`].map(x => `<span>${x}</span>`).join("");
+
+// ---------- cards
+$("#cards").innerHTML = P.map(p => { const s = o[p]; return `
+  <div class="card">
+    <div class="card-top"><span class="swatch" style="background:${cv(p)}"></span><h3>${NAME[p]}</h3><span class="tag">${KIND[p]}</span></div>
+    <div class="big num">${pct(s.accuracy)}<small>accuracy</small></div>
+    <dl class="kv">
+      <dt>Tokens per question</dt><dd>${fmt(s.avg_total_tokens)}</dd>
+      <dt>Tokens per correct answer</dt><dd>${fmt(s.tokens_per_correct)}</dd>
+      <dt>Context tokens</dt><dd>${fmt(s.avg_context_tokens)}</dd>
+      <dt>LLM calls</dt><dd>${s.avg_llm_calls.toFixed(1)}</dd>
+      <dt>Latency</dt><dd>${(s.avg_latency_ms / 1000).toFixed(1)} s</dd>
+      <dt>Citation recall</dt><dd>${pct(s.cite_recall)}</dd>
+      <dt>Exact match</dt><dd>${pct(s.exact_match)}</dd>
+    </dl>
+  </div>`; }).join("");
+$("#tg-note").hidden = !P.some(p => p.startsWith("tg_"));
+$("#legend").innerHTML = P.map(p => `<span><span class="swatch" style="background:${cv(p)}"></span>${NAME[p]}</span>`).join("");
+
+// ---------- tooltip
+const tip = $("#tip");
+document.addEventListener("pointermove", e => {
+  const t = e.target.closest("[data-tip]");
+  if (!t) { tip.hidden = true; return; }
+  tip.innerHTML = t.dataset.tip; tip.hidden = false;
+  const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
+  tip.style.left = x + "px"; tip.style.top = (e.clientY + 14) + "px";
+});
+
+// ---------- grouped vertical bars (one axis, values labelled)
+function grouped(el, groups, series, val, {max, label, tick}) {
+  const m = {l: 44, r: 8, t: 18, b: 34}, W = Math.max(520, m.l + m.r + groups.length * (series.length * 24 + 26)), H = 250;
+  const iw = W - m.l - m.r, ih = H - m.t - m.b, gw = iw / groups.length, pad = 12, gap = 2;
+  const bw = (gw - pad * 2 - gap * (series.length - 1)) / series.length;
+  const y = v => m.t + ih - (v / max) * ih;
+  let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" style="min-width:${Math.round(W * .8)}px">`;
+  for (const tv of tick) s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(tv)}" y2="${y(tv)}" stroke="var(--rule2)"/>` +
+    `<text x="${m.l - 6}" y="${y(tv) + 4}" text-anchor="end" font-size="11" fill="var(--muted)">${label(tv)}</text>`;
+  groups.forEach((g, gi) => {
+    series.forEach((p, si) => {
+      const v = val(p, g) ?? 0, x = m.l + gi * gw + pad + si * (bw + gap), h = Math.max(0, y(0) - y(v));
+      const r = Math.min(4, bw / 2, h);
+      const path = h > 0 ? `M${x},${y(0)} V${y(v) + r} Q${x},${y(v)} ${x + r},${y(v)} H${x + bw - r} Q${x + bw},${y(v)} ${x + bw},${y(v) + r} V${y(0)} Z` : "";
+      s += `<path class="bar" d="${path}" fill="${cv(p)}"/>`;
+      s += `<rect x="${x - gap / 2}" y="${m.t}" width="${bw + gap}" height="${ih}" fill="transparent" data-tip="<b>${NAME[p]}</b> · ${TNAME[g]}<br>${label(v, true)}"/>`;
+      s += `<text x="${x + bw / 2}" y="${y(v) - 4}" text-anchor="middle" font-size="10" fill="var(--ink2)" class="num">${label(v, false, true)}</text>`;
+    });
+    s += `<text x="${m.l + gi * gw + gw / 2}" y="${H - 12}" text-anchor="middle" font-size="12" fill="var(--ink2)">${TNAME[g]}</text>`;
+  });
+  s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(0)}" y2="${y(0)}" stroke="var(--rule)"/></svg>`;
+  el.innerHTML = s;
+}
+grouped($("#c-acc"), D.types, P, (p, t) => bq(p, t).accuracy, {max: 1, tick: [0, .25, .5, .75, 1],
+  label: (v, long, short) => short ? Math.round(v * 100) : (long ? `${pct(v)} correct` : pct(v))});
+const tmax = Math.max(...D.types.flatMap(t => P.map(p => bq(p, t).avg_total_tokens || 0)));
+const tstep = tmax > 6000 ? 2000 : 1000, tTop = Math.ceil(tmax / tstep) * tstep;
+grouped($("#c-tok"), D.types, P, (p, t) => bq(p, t).avg_total_tokens, {max: tTop,
+  tick: Array.from({length: tTop / tstep + 1}, (_, i) => i * tstep),
+  label: (v, long, short) => short ? (v / 1000).toFixed(1) + "k" : (long ? `${fmt(v)} tokens / question` : (v / 1000) + "k")});
+
+// ---------- verdict table
+$("#verdict").innerHTML = `<thead><tr><th>Type</th>${P.map(p => `<th class="n">${NAME[p]}</th>`).join("")}<th class="n">Agent tokens</th><th class="n">Cheapest single-pass tokens</th><th>Verdict</th></tr></thead><tbody>` +
+  D.types.map(t => {
+    const single = SINGLE, bestS = single.reduce((a, b) => (bq(a, t).accuracy ?? 0) >= (bq(b, t).accuracy ?? 0) ? a : b);
+    const ok = single.filter(p => bq(p, t).accuracy >= .9);
+    const cheap = ok.length ? ok.reduce((a, b) => bq(a, t).avg_total_tokens <= bq(b, t).avg_total_tokens ? a : b) : null;
+    const req = !ok.length;
+    const chip = req ? `<span class="chip bad">✕ Agent required</span>` : `<span class="chip good">✓ Agent optional</span>`;
+    const note = req ? `best single pass: ${NAME[bestS]} ${pct(bq(bestS, t).accuracy)}` : `${NAME[cheap]} reaches ${pct(bq(cheap, t).accuracy)}`;
+    return `<tr><td><b>${TNAME[t]}</b><div class="hint">n = ${bq("agentic", t).n}</div></td>${P.map(p => `<td class="n">${pct(bq(p, t).accuracy)}</td>`).join("")}
+      <td class="n">${fmt(bq("agentic", t).avg_total_tokens)}</td><td class="n">${cheap ? fmt(bq(cheap, t).avg_total_tokens) : "–"}</td><td>${chip}<div class="hint">${note}</div></td></tr>`;
+  }).join("") + "</tbody>";
+
+// ---------- agent paths
+$("#paths").innerHTML = `<thead><tr><th>Type</th><th class="n">Tool calls</th><th class="n">LLM calls</th><th>Most common path</th></tr></thead><tbody>` +
+  D.types.map(t => { const b = D.behaviour[t]; return `<tr><td><b>${TNAME[t]}</b></td><td class="n">${b.tool_calls.toFixed(1)}</td><td class="n">${b.llm_calls.toFixed(1)}</td>
+    <td>${b.paths.map(([p, n]) => `<div class="path">${esc(p) || "(none)"} → finish <span class="hint">×${n}</span></div>`).join("")}</td></tr>`; }).join("") + "</tbody>";
+
+// ---------- agent token spend (single series, horizontal)
+(function () {
+  const rows = D.agent_calls.filter(([, v]) => v > 0), W = 520, rh = 30, m = {l: 150, r: 70, t: 6};
+  const H = m.t + rows.length * rh + 6, max = Math.max(...rows.map(r => r[1]));
+  let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" style="min-width:380px">`;
+  rows.forEach(([a, v], i) => {
+    const y = m.t + i * rh, w = (v / max) * (W - m.l - m.r), r = Math.min(4, w);
+    s += `<text x="${m.l - 8}" y="${y + 18}" text-anchor="end" font-size="12" fill="var(--ink2)">${esc(a.replace(/_/g, " "))}</text>`;
+    s += `<path d="M${m.l},${y + 6} H${m.l + w - r} Q${m.l + w},${y + 6} ${m.l + w},${y + 6 + r} V${y + 22 - r} Q${m.l + w},${y + 22} ${m.l + w - r},${y + 22} H${m.l} Z" fill="var(--s-agentic)"/>`;
+    s += `<rect x="0" y="${y}" width="${W}" height="${rh}" fill="transparent" data-tip="<b>${esc(a)}</b><br>${fmt(v)} calls · ${fmt(D.agent_tokens[a] || 0)} LLM tokens · ${((D.agent_ms[a] || 0) / 1000).toFixed(1)} s total"/>`;
+    s += `<text x="${m.l + w + 6}" y="${y + 18}" font-size="11" fill="var(--ink2)" class="num">${fmt(v)}</text>`;
+  });
+  $("#c-agents").innerHTML = s + "</svg>";
+  const ag = D.overall.agentic;
+  $("#stops").innerHTML = `Stop reasons: ${D.stops.map(([k, n]) => `<b>${esc(k.replace(/_/g, " "))}</b> ×${n}`).join(", ")} · strategy changed on ${pct(ag.strategy_change_rate)} of questions · tool calls: ${D.tool_use.map(([k, n]) => `${esc(k)} ×${n}`).join(", ")}`;
+})();
+
+// ---------- hidden
+$("#hidden").innerHTML = `<thead><tr><th>Pipeline</th><th class="n">Questions</th><th class="n">Tokens / question</th><th class="n">LLM calls</th><th class="n">Latency</th><th class="n">Errors</th></tr></thead><tbody>` +
+  P.filter(p => D.hidden[p]).map(p => { const h = D.hidden[p]; return `<tr><td><span class="swatch" style="display:inline-block;background:${cv(p)};margin-right:8px"></span>${NAME[p]}</td>
+    <td class="n">${h.n}</td><td class="n">${fmt(h.avg_tokens)}</td><td class="n">${h.avg_llm.toFixed(1)}</td><td class="n">${(h.avg_ms / 1000).toFixed(1)} s</td><td class="n">${h.errors}</td></tr>`; }).join("") + "</tbody>";
+
+// ---------- explorer
+const chip = sc => sc >= 1 ? `<span class="chip good">✓ correct</span>` : sc > 0 ? `<span class="chip warn">½ partial</span>` : `<span class="chip bad">✕ wrong</span>`;
+$("#f-type").innerHTML = `<option value="all">All types</option>` + D.types.map(t => `<option value="${t}">${TNAME[t]}</option>`).join("");
+let open = null;
+function timeline(qid) {
+  const tr = D.traces[qid]; if (!tr) return "";
+  return `<div class="timeline">` + tr.events.map(e => {
+    const t = `<span class="t">${(e.t_ms / 1000).toFixed(1)}s</span>`;
+    if (e.kind === "action") return `<div class="tl">${t}<span class="who">${esc(e.agent)}</span><span class="body"><code>${esc(e.tool)}(${esc(Object.entries(e.args).map(([k, v]) => `${k}=${JSON.stringify(v)}`).join(", "))})</code> <span class="why">${esc(e.reason)}</span></span></div>`;
+    if (e.kind === "plan") return `<div class="tl sys">${t}<span class="who">plan</span><span class="body">${esc(e.actions.join(" + ") || "answer directly")}</span></div>`;
+    if (e.kind === "evaluation") return `<div class="tl sys">${t}<span class="who">evidence check</span><span class="body">${e.accepted ? "accepted" : "rejected"} "${esc(e.answer)}" · ${esc(e.why)}</span></div>`;
+    if (e.kind === "stop") return `<div class="tl sys">${t}<span class="who">stop</span><span class="body">${esc(e.reason.replace(/_/g, " "))} after ${e.turn} orchestrator turns, ${e.evidence_items} evidence items</span></div>`;
+    return `<div class="tl sys">${t}<span class="who">${esc(e.kind.replace(/_/g, " "))}</span><span class="body">${esc(e.why || e.reason || e.duplicate_of || "")}</span></div>`;
+  }).join("") + `</div><p class="hint" style="margin-top:8px">Citations: ${tr.citations.map(esc).join(", ") || "none"}</p>`;
+}
+function renderQs() {
+  const ft = $("#f-type").value, fo = $("#f-out").value, fq = $("#f-q").value.toLowerCase();
+  const rows = D.rows.filter(r => (ft === "all" || r.qtype === ft) && (!fq || r.question.toLowerCase().includes(fq)) && (
+    fo === "all" || (fo === "agent-only" && r.agentic?.score >= 1 && SINGLE.every(p => (r[p]?.score ?? 0) < 1)) ||
+    (fo === "all-right" && P.every(p => r[p]?.score >= 1)) || (fo === "any-wrong" && P.some(p => (r[p]?.score ?? 0) < 1))));
+  $("#qs").innerHTML = `<thead><tr><th>ID</th><th>Question</th><th>Type</th>${P.map(p => `<th>${NAME[p]}</th>`).join("")}</tr></thead><tbody>` +
+    rows.map(r => `<tr class="qrow" tabindex="0" data-q="${r.qid}"><td class="num">${r.qid}</td><td class="qtext">${esc(r.question)}</td><td>${TNAME[r.qtype]}</td>
+      ${P.map(p => `<td>${r[p] ? chip(r[p].score) : "–"}</td>`).join("")}</tr>` +
+      (open === r.qid ? `<tr class="detail"><td colspan="${3 + P.length}"><div class="dgrid"><div class="ans"><span class="lbl">Gold answer</span><b>${esc(r.gold)}</b></div>` +
+        P.map(p => r[p] ? `<div class="ans"><span class="lbl"><span class="swatch" style="background:${cv(p)}"></span>${NAME[p]} · ${fmt(r[p].tokens)} tokens · ${r[p].llm} LLM calls</span><span>${esc(r[p].answer) || "(empty)"}</span>${chip(r[p].score)}</div>` : "").join("") +
+        `</div><h3 style="margin-bottom:8px">Agent investigation</h3>${timeline(r.qid)}</td></tr>` : "")).join("") +
+    `</tbody>` + (rows.length ? "" : `<tbody><tr><td colspan="6" class="hint">No questions match these filters.</td></tr></tbody>`);
+}
+$("#qs").addEventListener("click", e => { const tr = e.target.closest(".qrow"); if (!tr) return; open = open === tr.dataset.q ? null : tr.dataset.q; renderQs(); });
+$("#qs").addEventListener("keydown", e => { if (e.key !== "Enter") return; const tr = e.target.closest(".qrow"); if (tr) { open = open === tr.dataset.q ? null : tr.dataset.q; renderQs(); } });
+["#f-type", "#f-out", "#f-q"].forEach(s => $(s).addEventListener("input", renderQs));
+open = (D.rows.find(r => r.qtype === "temporal" && r.agentic?.score >= 1 && (r.rag?.score ?? 0) < 1) || D.rows[0]).qid;
+renderQs();
+$("#foot").textContent = "Generated by scripts/build_dashboard.py from results/summary.json. Corpus: 2,951 Wikipedia articles (CC BY-SA 4.0).";
+</script>

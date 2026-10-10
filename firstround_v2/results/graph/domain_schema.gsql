@@ -1,0 +1,150 @@
+// A named thing (person, place, organisation, work, ...) referenced by structured records.
+ADD VERTEX Name(PRIMARY_ID id STRING, name STRING);
+// One 'Olympic event' record per document (2187 documents). Raw field text in STRING attributes; numeric values in games_num, competitors_num, nations_num, next_num, prev_num; years in date_year, dates_year.
+ADD VERTEX OlympicEvent(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, bronze STRING, bronzenoc STRING, gold STRING, silver STRING, event STRING, games STRING, games_num DOUBLE, goldnoc STRING, silvernoc STRING, competitors STRING, competitors_num DOUBLE, nations STRING, nations_num DOUBLE, next STRING, next_num DOUBLE, venue STRING, prev STRING, prev_num DOUBLE, win_value STRING, date STRING, date_year INT, date_iso STRING, dates STRING, dates_year INT, dates_iso STRING);
+// One 'film' record per document (546 documents). Raw field text in STRING attributes; numeric values in runtime_num, gross_num, budget_num; years in released_year.
+ADD VERTEX Film(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, director STRING, released STRING, released_year INT, released_iso STRING, starring STRING, country STRING, producer STRING, language STRING, cinematography STRING, runtime STRING, runtime_num DOUBLE, editing STRING, music STRING, gross STRING, gross_num DOUBLE, distributor STRING, budget STRING, budget_num DOUBLE, studio STRING, writer STRING, screenplay STRING, based_on STRING);
+// One 'album' record per document (145 documents). Raw field text in STRING attributes; numeric values in next_year_num, prev_year_num; years in released_year.
+ADD VERTEX Album(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, type_text STRING, released STRING, released_year INT, released_iso STRING, artist STRING, label STRING, genre STRING, producer STRING, length STRING, next_title STRING, recorded STRING, prev_title STRING, next_year STRING, next_year_num DOUBLE, prev_year STRING, prev_year_num DOUBLE);
+// One 'officeholder' record per document (73 documents). Raw field text in STRING attributes; numeric values in order_num, children_num, death_date_num, district_num, service_years_num; years in term_start_year, term_end_year, birth_date_year.
+ADD VERTEX Officeholder(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, term_start STRING, term_start_year INT, term_start_iso STRING, term_end STRING, term_end_year INT, term_end_iso STRING, predecessor STRING, successor STRING, office STRING, birth_date STRING, birth_date_year INT, birth_date_iso STRING, birth_place STRING, order_text STRING, order_num DOUBLE, spouse STRING, party STRING, children STRING, children_num DOUBLE, birth_name STRING, education STRING, lieutenant STRING, death_date STRING, death_date_num DOUBLE, death_place STRING, district STRING, district_num DOUBLE, branch STRING, president STRING, service_years STRING, service_years_num DOUBLE, prime_minister STRING);
+// One 'person' record per document (65 documents). Raw field text in STRING attributes; numeric values in years_active_num, children_num; years in birth_date_year.
+ADD VERTEX Person(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, occupation STRING, birth_date STRING, birth_date_year INT, birth_date_iso STRING, birth_place STRING, years_active STRING, years_active_num DOUBLE, spouse STRING, birth_name STRING, children STRING, children_num DOUBLE, awards STRING, education STRING);
+// One 'ski area' record per document (32 documents). Raw field text in STRING attributes; numeric values in vertical_num, top_elevation_num, base_elevation_num.
+ADD VERTEX SkiArea(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, location STRING, vertical STRING, vertical_num DOUBLE, top_elevation STRING, top_elevation_num DOUBLE, base_elevation STRING, base_elevation_num DOUBLE);
+// One 'tennis tournament event' record per document (25 documents). Raw field text in STRING attributes; numeric values in score_num.
+ADD VERTEX TennisTournamentEvent(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, champ STRING, runner STRING, score STRING, score_num DOUBLE, quadrennial STRING, multi STRING, qual_type STRING, type_text STRING);
+// One 'company' record per document (17 documents). Raw field text in STRING attributes; numeric values in founded_num, revenue_num, num_employees_num, net_income_num, operating_income_num, assets_num, equity_num.
+ADD VERTEX Company(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, industry STRING, type_text STRING, traded_as STRING, founded STRING, founded_num DOUBLE, website STRING, key_people STRING, revenue STRING, revenue_num DOUBLE, num_employees STRING, num_employees_num DOUBLE, net_income STRING, net_income_num DOUBLE, operating_income STRING, operating_income_num DOUBLE, products STRING, hq_location_city STRING, hq_location_country STRING, area_served STRING, assets STRING, assets_num DOUBLE, equity STRING, equity_num DOUBLE, hq_location STRING, founder STRING, founders STRING);
+// One 'writer' record per document (8 documents). Raw field text in STRING attributes; numeric values in death_date_num, children_num; years in birth_date_year.
+ADD VERTEX Writer(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, birth_place STRING, occupation STRING, notable_works STRING, birth_date STRING, birth_date_year INT, birth_date_iso STRING, awards STRING, birth_name STRING, spouse STRING, death_date STRING, death_date_num DOUBLE, death_place STRING, children STRING, children_num DOUBLE, period STRING, genre STRING, language STRING, education STRING);
+// One 'international football competition' record per document (8 documents). Raw field text in STRING attributes; numeric values in year_num, size_num, confederations_num, num_teams_num, venues_num, cities_num, count_num, matches_num; years in dates_year.
+ADD VERTEX InternationalFootballCompetition(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, country STRING, tourney_name STRING, year STRING, year_num DOUBLE, size STRING, size_num DOUBLE, dates STRING, dates_year INT, dates_iso STRING, confederations STRING, confederations_num DOUBLE, num_teams STRING, num_teams_num DOUBLE, venues STRING, venues_num DOUBLE, cities STRING, cities_num DOUBLE, count_text STRING, count_num DOUBLE, champion_other STRING, second_other STRING, third_other STRING, fourth_other STRING, matches STRING, matches_num DOUBLE, goals STRING, goals_num DOUBLE, top_scorer STRING, nextseason STRING, nextseason_num DOUBLE, fair_play STRING, prevseason STRING, prevseason_num DOUBLE);
+// One 'scientist' record per document (6 documents). Raw field text in STRING attributes; numeric values in death_date_num, thesis_year_num; years in birth_date_year.
+ADD VERTEX Scientist(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, birth_date STRING, birth_date_year INT, birth_date_iso STRING, birth_place STRING, workplaces STRING, education STRING, known_for STRING, doctoral_advisor STRING, awards STRING, death_date STRING, death_date_num DOUBLE, death_place STRING, field STRING, doctoral_students STRING, thesis_title STRING, thesis_url STRING, thesis_year STRING, thesis_year_num DOUBLE, birth_name STRING, fields STRING);
+// Generic record for rare structured block kinds; fields as 'key: value' lines.
+ADD VERTEX Record(PRIMARY_ID id STRING, name STRING, doc_id STRING, doc_title STRING, kind STRING, fields STRING);
+// The name of the thing a record describes.
+ADD DIRECTED EDGE NAMED(FROM OlympicEvent, TO Name | FROM Film, TO Name | FROM Album, TO Name | FROM Officeholder, TO Name | FROM Person, TO Name | FROM SkiArea, TO Name | FROM TennisTournamentEvent, TO Name | FROM Company, TO Name | FROM Writer, TO Name | FROM InternationalFootballCompetition, TO Name | FROM Scientist, TO Name | FROM Record, TO Name);
+// Record field 'bronze' naming another thing.
+ADD DIRECTED EDGE BRONZE(FROM OlympicEvent, TO Name);
+// Record field 'bronzenoc' naming another thing.
+ADD DIRECTED EDGE BRONZENOC(FROM OlympicEvent, TO Name);
+// Record field 'gold' naming another thing.
+ADD DIRECTED EDGE GOLD(FROM OlympicEvent, TO Name);
+// Record field 'silver' naming another thing.
+ADD DIRECTED EDGE SILVER(FROM OlympicEvent, TO Name);
+// Record field 'goldnoc' naming another thing.
+ADD DIRECTED EDGE GOLDNOC(FROM OlympicEvent, TO Name);
+// Record field 'silvernoc' naming another thing.
+ADD DIRECTED EDGE SILVERNOC(FROM OlympicEvent, TO Name);
+// Record field 'venue' naming another thing.
+ADD DIRECTED EDGE VENUE(FROM OlympicEvent, TO Name);
+// Record field 'director' naming another thing.
+ADD DIRECTED EDGE DIRECTOR(FROM Film, TO Name);
+// Record field 'starring' naming another thing.
+ADD DIRECTED EDGE STARRING(FROM Film, TO Name);
+// Record field 'country' naming another thing.
+ADD DIRECTED EDGE COUNTRY(FROM Film, TO Name | FROM InternationalFootballCompetition, TO Name);
+// Record field 'producer' naming another thing.
+ADD DIRECTED EDGE PRODUCER(FROM Film, TO Name | FROM Album, TO Name);
+// Record field 'language' naming another thing.
+ADD DIRECTED EDGE LANGUAGE(FROM Film, TO Name | FROM Writer, TO Name);
+// Record field 'cinematography' naming another thing.
+ADD DIRECTED EDGE CINEMATOGRAPHY(FROM Film, TO Name);
+// Record field 'editing' naming another thing.
+ADD DIRECTED EDGE EDITING(FROM Film, TO Name);
+// Record field 'music' naming another thing.
+ADD DIRECTED EDGE MUSIC(FROM Film, TO Name);
+// Record field 'distributor' naming another thing.
+ADD DIRECTED EDGE DISTRIBUTOR(FROM Film, TO Name);
+// Record field 'studio' naming another thing.
+ADD DIRECTED EDGE STUDIO(FROM Film, TO Name);
+// Record field 'has_writer' naming another thing.
+ADD DIRECTED EDGE HAS_WRITER(FROM Film, TO Name);
+// Record field 'screenplay' naming another thing.
+ADD DIRECTED EDGE SCREENPLAY(FROM Film, TO Name);
+// Record field 'based_on' naming another thing.
+ADD DIRECTED EDGE BASED_ON(FROM Film, TO Name);
+// Record field 'artist' naming another thing.
+ADD DIRECTED EDGE ARTIST(FROM Album, TO Name);
+// Record field 'label' naming another thing.
+ADD DIRECTED EDGE LABEL(FROM Album, TO Name);
+// Record field 'genre' naming another thing.
+ADD DIRECTED EDGE GENRE(FROM Album, TO Name | FROM Writer, TO Name);
+// Record field 'next_title' naming another thing.
+ADD DIRECTED EDGE NEXT_TITLE(FROM Album, TO Name);
+// Record field 'prev_title' naming another thing.
+ADD DIRECTED EDGE PREV_TITLE(FROM Album, TO Name);
+// Record field 'predecessor' naming another thing.
+ADD DIRECTED EDGE PREDECESSOR(FROM Officeholder, TO Name);
+// Record field 'successor' naming another thing.
+ADD DIRECTED EDGE SUCCESSOR(FROM Officeholder, TO Name);
+// Record field 'birth_place' naming another thing.
+ADD DIRECTED EDGE BIRTH_PLACE(FROM Officeholder, TO Name | FROM Person, TO Name | FROM Writer, TO Name | FROM Scientist, TO Name);
+// Record field 'party' naming another thing.
+ADD DIRECTED EDGE PARTY(FROM Officeholder, TO Name);
+// Record field 'birth_name' naming another thing.
+ADD DIRECTED EDGE BIRTH_NAME(FROM Officeholder, TO Name | FROM Person, TO Name | FROM Writer, TO Name | FROM Scientist, TO Name);
+// Record field 'education' naming another thing.
+ADD DIRECTED EDGE EDUCATION(FROM Officeholder, TO Name | FROM Person, TO Name | FROM Writer, TO Name | FROM Scientist, TO Name);
+// Record field 'lieutenant' naming another thing.
+ADD DIRECTED EDGE LIEUTENANT(FROM Officeholder, TO Name);
+// Record field 'death_place' naming another thing.
+ADD DIRECTED EDGE DEATH_PLACE(FROM Officeholder, TO Name | FROM Writer, TO Name | FROM Scientist, TO Name);
+// Record field 'branch' naming another thing.
+ADD DIRECTED EDGE BRANCH(FROM Officeholder, TO Name);
+// Record field 'president' naming another thing.
+ADD DIRECTED EDGE PRESIDENT(FROM Officeholder, TO Name);
+// Record field 'prime_minister' naming another thing.
+ADD DIRECTED EDGE PRIME_MINISTER(FROM Officeholder, TO Name);
+// Record field 'awards' naming another thing.
+ADD DIRECTED EDGE AWARDS(FROM Person, TO Name);
+// Record field 'location' naming another thing.
+ADD DIRECTED EDGE LOCATION(FROM SkiArea, TO Name);
+// Record field 'champ' naming another thing.
+ADD DIRECTED EDGE CHAMP(FROM TennisTournamentEvent, TO Name);
+// Record field 'runner' naming another thing.
+ADD DIRECTED EDGE RUNNER(FROM TennisTournamentEvent, TO Name);
+// Record field 'industry' naming another thing.
+ADD DIRECTED EDGE INDUSTRY(FROM Company, TO Name);
+// Record field 'has_type' naming another thing.
+ADD DIRECTED EDGE HAS_TYPE(FROM Company, TO Name);
+// Record field 'key_people' naming another thing.
+ADD DIRECTED EDGE KEY_PEOPLE(FROM Company, TO Name);
+// Record field 'hq_location_city' naming another thing.
+ADD DIRECTED EDGE HQ_LOCATION_CITY(FROM Company, TO Name);
+// Record field 'hq_location_country' naming another thing.
+ADD DIRECTED EDGE HQ_LOCATION_COUNTRY(FROM Company, TO Name);
+// Record field 'area_served' naming another thing.
+ADD DIRECTED EDGE AREA_SERVED(FROM Company, TO Name);
+// Record field 'hq_location' naming another thing.
+ADD DIRECTED EDGE HQ_LOCATION(FROM Company, TO Name);
+// Record field 'founder' naming another thing.
+ADD DIRECTED EDGE FOUNDER(FROM Company, TO Name);
+// Record field 'founders' naming another thing.
+ADD DIRECTED EDGE FOUNDERS(FROM Company, TO Name);
+// Record field 'tourney_name' naming another thing.
+ADD DIRECTED EDGE TOURNEY_NAME(FROM InternationalFootballCompetition, TO Name);
+// Record field 'champion_other' naming another thing.
+ADD DIRECTED EDGE CHAMPION_OTHER(FROM InternationalFootballCompetition, TO Name);
+// Record field 'second_other' naming another thing.
+ADD DIRECTED EDGE SECOND_OTHER(FROM InternationalFootballCompetition, TO Name);
+// Record field 'third_other' naming another thing.
+ADD DIRECTED EDGE THIRD_OTHER(FROM InternationalFootballCompetition, TO Name);
+// Record field 'fourth_other' naming another thing.
+ADD DIRECTED EDGE FOURTH_OTHER(FROM InternationalFootballCompetition, TO Name);
+// Record field 'fair_play' naming another thing.
+ADD DIRECTED EDGE FAIR_PLAY(FROM InternationalFootballCompetition, TO Name);
+// Record field 'workplaces' naming another thing.
+ADD DIRECTED EDGE WORKPLACES(FROM Scientist, TO Name);
+// Record field 'known_for' naming another thing.
+ADD DIRECTED EDGE KNOWN_FOR(FROM Scientist, TO Name);
+// Record field 'doctoral_advisor' naming another thing.
+ADD DIRECTED EDGE DOCTORAL_ADVISOR(FROM Scientist, TO Name);
+// Record field 'field' naming another thing.
+ADD DIRECTED EDGE FIELD(FROM Scientist, TO Name);
+// Record field 'doctoral_students' naming another thing.
+ADD DIRECTED EDGE DOCTORAL_STUDENTS(FROM Scientist, TO Name);
+// Record field 'fields' naming another thing.
+ADD DIRECTED EDGE FIELDS(FROM Scientist, TO Name);

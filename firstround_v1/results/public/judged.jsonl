@@ -1,0 +1,329 @@
+{"pipeline": "rag", "qid": "pub-001", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-002", "answer": "Chen Ding", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-003", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-004", "answer": "Athletics at the 2008 Summer Olympics – Men's 100 metres", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-005", "answer": "Naim Süleymanoğlu", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-006", "answer": "Rafaela Silva", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-007", "answer": "Renaud Lavillenie", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-008", "answer": "Sailing at the 2000 Summer Olympics – Laser", "judge": {"score": 0, "complete": true, "reason": "Prediction names different event than gold"}}
+{"pipeline": "rag", "qid": "pub-009", "answer": "26", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-010", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-011", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-012", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-013", "answer": "Allison Schmitt", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-014", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-015", "answer": "Dani KingLaura TrottJoanna Rowsell", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-016", "answer": "Arnd Peiffer", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-017", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-018", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-019", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-020", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold number"}}
+{"pipeline": "rag", "qid": "pub-021", "answer": "Men's giant slalom", "judge": {"score": 1, "complete": true, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "rag", "qid": "pub-022", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-023", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-024", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold answer"}}
+{"pipeline": "rag", "qid": "pub-025", "answer": "23", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-026", "answer": "Jaroslav Kulhavý", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-027", "answer": "Men's épée", "judge": {"score": 0, "complete": true, "reason": "Prediction is an event name, not a number"}}
+{"pipeline": "rag", "qid": "pub-028", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-029", "answer": "28", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-030", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-031", "answer": "Dmitry Berestov", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-032", "answer": "34", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-033", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-034", "answer": "23", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-035", "answer": "30", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-036", "answer": "Zou Shiming", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-037", "answer": "Shooting at the 2008 Summer Olympics – Men's 25 metre rapid fire pistol", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-038", "answer": "Pyrros Dimas", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-039", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-040", "answer": "Jason Lamy Chappuis", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-041", "answer": "Nino Schurter", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-042", "answer": "47", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-043", "answer": "Kjetil André Aamodt", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-044", "answer": "Men's épée", "judge": {"score": 1, "complete": true, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "rag", "qid": "pub-045", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-046", "answer": "50", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-047", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-048", "answer": "Servet Tazegül", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-049", "answer": "Martin Fourcade", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-050", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-051", "answer": "0", "judge": {"score": 0, "complete": true, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "rag", "qid": "pub-052", "answer": "20", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-053", "answer": "Shooting at the 2016 Summer Olympics – Men's 25 metre rapid fire pistol", "judge": {"score": 0, "complete": true, "reason": "Prediction names different event than gold answer"}}
+{"pipeline": "rag", "qid": "pub-054", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-055", "answer": "Hadi Saei", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-056", "answer": "Yevgeny Dementyev", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-057", "answer": "Allyson Felix", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-058", "answer": "0", "judge": {"score": 0, "complete": true, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "rag", "qid": "pub-059", "answer": "Laura Dahlmeier", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-060", "answer": "Mansur Isaev", "judge": {"score": 0, "complete": true, "reason": "Prediction names different athlete than gold"}}
+{"pipeline": "rag", "qid": "pub-061", "answer": "34", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-062", "answer": "Tirunesh Dibaba", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-063", "answer": "", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-064", "answer": "Gabriela Szabo", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-065", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-066", "answer": "Weightlifting at the 1992 Summer Olympics – Men's 75 kg", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-067", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-068", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-069", "answer": "2", "judge": {"score": 0.5, "complete": true, "reason": "Prediction partially matches gold number"}}
+{"pipeline": "rag", "qid": "pub-070", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-071", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-072", "answer": "Lee Sang-hwa", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-073", "answer": "Yang Ling", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-074", "answer": "17", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-075", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-076", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-077", "answer": "Kaillie Humphries", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-078", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-079", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-080", "answer": "17", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-081", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-082", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-083", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-084", "answer": "Men's épée", "judge": {"score": 1, "complete": true, "reason": "Prediction matches gold answer exactly"}}
+{"pipeline": "rag", "qid": "pub-085", "answer": "Women's Yngling", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-086", "answer": "Shani Davis", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-087", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction much lower than gold answer"}}
+{"pipeline": "rag", "qid": "pub-088", "answer": "Alpine skiing at the 1992 Winter Olympics – Men's giant slalom", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-089", "answer": "3", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold number"}}
+{"pipeline": "rag", "qid": "pub-090", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-091", "answer": "18", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-092", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-093", "answer": "0", "judge": {"score": 0, "complete": true, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "rag", "qid": "pub-094", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-095", "answer": "Usain Bolt", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-096", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-097", "answer": "Yana Shemyakina", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-098", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "rag", "qid": "pub-099", "answer": "Erik LesserDaniel BöhmArnd PeifferSimon Schempp", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-100", "answer": "Missy Franklin", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-001", "answer": "3", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold number"}}
+{"pipeline": "graphrag", "qid": "pub-002", "answer": "Chen Ding", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-003", "answer": "0", "judge": {"score": 0, "complete": true, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-004", "answer": "Athletics at the 2008 Summer Olympics – Men's 200 metres", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-005", "answer": "Joachim Kunz", "judge": {"score": 0, "complete": true, "reason": "Prediction name differs from gold medalist"}}
+{"pipeline": "graphrag", "qid": "pub-006", "answer": "Rafaela Silva", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-007", "answer": "", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "graphrag", "qid": "pub-008", "answer": "Sailing at the 2000 Summer Olympics – Soling", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-009", "answer": "26", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-010", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold number"}}
+{"pipeline": "graphrag", "qid": "pub-011", "answer": "Martina Sáblíková", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-012", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-013", "answer": "Allison Schmitt", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-014", "answer": "Lu Xiaojun", "judge": {"score": 0, "complete": true, "reason": "Prediction name differs from gold medalist"}}
+{"pipeline": "graphrag", "qid": "pub-015", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "graphrag", "qid": "pub-016", "answer": "Arnd Peiffer", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-017", "answer": "Yi Siling", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-018", "answer": "Kevin Jackson", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-019", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-020", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-021", "answer": "Alpine skiing at the 1988 Winter Olympics – Men's giant slalom", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-022", "answer": "Ayumi Tanimoto", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-023", "answer": "Hwang Young-Cho", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-024", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-025", "answer": "23", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-026", "answer": "Jaroslav Kulhavý", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-027", "answer": "Men's épée, Men's foil, Women's foil, Women's épée, Women's team foil", "judge": {"score": 0, "complete": true, "reason": "Prediction lists events, not a number"}}
+{"pipeline": "graphrag", "qid": "pub-028", "answer": "Michael Phelps", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-029", "answer": "28", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-030", "answer": "Emese Szász", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-031", "answer": "Dmitry Berestov", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-032", "answer": "34", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-033", "answer": "", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "graphrag", "qid": "pub-034", "answer": "23", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-035", "answer": "30", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-036", "answer": "Zou Shiming", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-037", "answer": "Shooting at the 2008 Summer Olympics – Men's skeet", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-038", "answer": "Pyrros Dimas", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-039", "answer": "Sandra Perković", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-040", "answer": "Jason Lamy Chappuis", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-041", "answer": "Nino Schurter", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-042", "answer": "47", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-043", "answer": "Kjetil André Aamodt", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-044", "answer": "Fencing at the 2008 Summer Olympics – Men's épée", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-045", "answer": "3", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-046", "answer": "50", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-047", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-048", "answer": "Servet Tazegül", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-049", "answer": "Martin Fourcade", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-050", "answer": "Lee Sang-hwa", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-051", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-052", "answer": "20", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-053", "answer": "Shooting at the 2016 Summer Olympics – Men's skeet", "judge": {"score": 0, "complete": true, "reason": "Prediction names different event than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-054", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-055", "answer": "Sebastián Crismanich", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-056", "answer": "Yevgeny Dementyev", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-057", "answer": "Allyson Felix", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-058", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-059", "answer": "Anastasiya Kuzmina", "judge": {"score": 0, "complete": true, "reason": "Prediction names different athlete than gold"}}
+{"pipeline": "graphrag", "qid": "pub-060", "answer": "Oscar Figueroa", "judge": {"score": 0, "complete": true, "reason": "Prediction names different athlete than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-061", "answer": "34", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-062", "answer": "Tirunesh Dibaba", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-063", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "graphrag", "qid": "pub-064", "answer": "Gabriela Szabo", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-065", "answer": "3", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold number"}}
+{"pipeline": "graphrag", "qid": "pub-066", "answer": "Weightlifting at the 1992 Summer Olympics – Men's 82.5 kg", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-067", "answer": "Rosannagh MacLennan", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-068", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-069", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold number"}}
+{"pipeline": "graphrag", "qid": "pub-070", "answer": "0", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-071", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-072", "answer": "Lee Sang-hwa", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-073", "answer": "Yang Ling", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-074", "answer": "17", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-075", "answer": "32", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-076", "answer": "Julia Mancuso", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-077", "answer": "Kaillie Humphries", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-078", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-079", "answer": "Leontien Zijlaard", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-080", "answer": "17", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-081", "answer": "Guo Wenjun", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-082", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction much lower than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-083", "answer": "Pernilla Wiberg", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-084", "answer": "Fencing at the 1992 Summer Olympics – Men's épée", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-085", "answer": "Sailing at the 2008 Summer Olympics – Men's 470", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-086", "answer": "Shani Davis", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-087", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "graphrag", "qid": "pub-088", "answer": "Alpine skiing at the 1992 Winter Olympics – Men's combined", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-089", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-090", "answer": "Karam Gaber", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "graphrag", "qid": "pub-091", "answer": "18", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-092", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-093", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-094", "answer": "Oleg Kucherenko", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-095", "answer": "Irving Saladino", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-096", "answer": "Fazliddin Gaibnazarov", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-097", "answer": "Yana Shemyakina", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-098", "answer": "Yermakhan Ibraimov", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-099", "answer": "Erik LesserDaniel BöhmArnd PeifferSimon Schempp", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-100", "answer": "Missy Franklin", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-001", "answer": "5", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-002", "answer": "Chen Ding", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-003", "answer": "8", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-004", "answer": "Athletics at the 2008 Summer Olympics – Men's marathon", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-005", "answer": "Naim Süleymanoğlu", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-006", "answer": "Rafaela Silva", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-007", "answer": "Renaud Lavillenie", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-008", "answer": "Sailing at the 2000 Summer Olympics – Soling", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-009", "answer": "26", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-010", "answer": "4", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-011", "answer": "Martina Sáblíková", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-012", "answer": "6", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-013", "answer": "Allison Schmitt", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-014", "answer": "Carolina Marín", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-015", "answer": "Dani KingLaura TrottJoanna Rowsell", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-016", "answer": "Arnd Peiffer", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-017", "answer": "Yi Siling", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-018", "answer": "Kevin Jackson", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-019", "answer": "3", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-020", "answer": "4", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-021", "answer": "Alpine skiing at the 1988 Winter Olympics – Men's giant slalom", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-022", "answer": "Ayumi Tanimoto", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-023", "answer": "Athletics at the 1992 Summer Olympics – Men's marathon", "judge": {"score": 0, "complete": true, "reason": "Prediction is event, not gold medalist name"}}
+{"pipeline": "agentic", "qid": "pub-024", "answer": "3", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-025", "answer": "23", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-026", "answer": "Jaroslav Kulhavý", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-027", "answer": "4", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-028", "answer": "Michael Phelps", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-029", "answer": "28", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-030", "answer": "Emese Szász", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-031", "answer": "Dmitry Berestov", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-032", "answer": "34", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-033", "answer": "4", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-034", "answer": "23", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-035", "answer": "30", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-036", "answer": "Zou Shiming", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-037", "answer": "Shooting at the 2008 Summer Olympics – Men's 50 metre rifle prone", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-038", "answer": "Pyrros Dimas", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-039", "answer": "Sandra Perković", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-040", "answer": "Jason Lamy Chappuis", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-041", "answer": "Nino Schurter", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-042", "answer": "47", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-043", "answer": "Kjetil André Aamodt", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-044", "answer": "Fencing at the 2008 Summer Olympics – Men's épée", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-045", "answer": "20", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-046", "answer": "50", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-047", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-048", "answer": "Servet Tazegül", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-049", "answer": "Martin Fourcade", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-050", "answer": "Lee Sang-hwa", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-051", "answer": "6", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-052", "answer": "20", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-053", "answer": "Shooting at the 2016 Summer Olympics – Women's 10 metre air rifle", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-054", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-055", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "agentic", "qid": "pub-056", "answer": "Yevgeny Dementyev", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-057", "answer": "Allyson Felix", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-058", "answer": "5", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-059", "answer": "Laura Dahlmeier", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-060", "answer": "Mansur Isaev", "judge": {"score": 0, "complete": true, "reason": "Prediction names different athlete than gold"}}
+{"pipeline": "agentic", "qid": "pub-061", "answer": "34", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-062", "answer": "Tirunesh Dibaba", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-063", "answer": "41", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-064", "answer": "Gabriela Szabo", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-065", "answer": "5", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-066", "answer": "Weightlifting at the 1992 Summer Olympics – Men's 75 kg", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-067", "answer": "Rosannagh MacLennan", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-068", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-069", "answer": "3", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-070", "answer": "3", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-071", "answer": "24", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-072", "answer": "Lee Sang-hwa", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-073", "answer": "Yang Ling", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-074", "answer": "17", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-075", "answer": "32", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-076", "answer": "Julia Mancuso", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-077", "answer": "Kaillie Humphries", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-078", "answer": "7", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-079", "answer": "Leontien Zijlaard", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-080", "answer": "17", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-081", "answer": "Guo Wenjun", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-082", "answer": "12", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-083", "answer": "Pernilla Wiberg", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-084", "answer": "Fencing at the 1992 Summer Olympics – Men's épée", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-085", "answer": "Sailing at the 2008 Summer Olympics – Men's 470", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-086", "answer": "Shani Davis", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-087", "answer": "17", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-088", "answer": "Alpine skiing at the 1992 Winter Olympics – Men's giant slalom", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-089", "answer": "5", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-090", "answer": "Aslanbek Khushtov", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-091", "answer": "18", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-092", "answer": "6", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-093", "answer": "4", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-094", "answer": "Oleg Kucherenko", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-095", "answer": "Valerie Vili", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-096", "answer": "Fazliddin Gaibnazarov", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-097", "answer": "Yana Shemyakina", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-098", "answer": "Bekzat Sattarkhanov", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-099", "answer": "Biathlon at the 2014 Winter Olympics – Men's relay", "judge": {"score": 0, "complete": true, "reason": "Prediction is event, not winner names"}}
+{"pipeline": "agentic", "qid": "pub-100", "answer": "Missy Franklin", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-007", "answer": "Renaud Lavillenie", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-033", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "agentic", "qid": "pub-015", "answer": "Dani King, Laura Trott, Joanna Rowsell", "judge": {"score": 1, "complete": true, "reason": "Names match exactly"}}
+{"pipeline": "agentic", "qid": "pub-023", "answer": "Hwang Young-Cho", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-055", "answer": "Sebastián Crismanich", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-060", "answer": "Yana Shemyakina", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "agentic", "qid": "pub-099", "answer": "Erik LesserDaniel BöhmArnd PeifferSimon Schempp", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-027", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "rag", "qid": "pub-039", "answer": "Natalya Sadova", "judge": {"score": 0, "complete": true, "reason": "Prediction names different athlete than gold answer"}}
+{"pipeline": "rag", "qid": "pub-044", "answer": "Fencing at the 2008 Summer Olympics – Men's épée", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "rag", "qid": "pub-098", "answer": "Soraya Jiménez", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold medalist"}}
+{"pipeline": "graphrag", "qid": "pub-001", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-004", "answer": "Athletics at the 2008 Summer Olympics – Men's 100 metres", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-014", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "graphrag", "qid": "pub-019", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-027", "answer": "Men's épée", "judge": {"score": 0, "complete": true, "reason": "Prediction is an event, not a number"}}
+{"pipeline": "graphrag", "qid": "pub-044", "answer": "Fencing at the 2008 Summer Olympics – Men's foil", "judge": {"score": 0, "complete": true, "reason": "Prediction names different event than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-051", "answer": "0", "judge": {"score": 0, "complete": true, "reason": "Prediction contradicts gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-059", "answer": "Laura Dahlmeier", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-060", "answer": "Eko Yuli Irawan", "judge": {"score": 0, "complete": true, "reason": "Prediction names different athlete than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-065", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction less than gold number"}}
+{"pipeline": "graphrag", "qid": "pub-070", "answer": "UNKNOWN", "judge": {"score": 0, "complete": false, "reason": "no answer"}}
+{"pipeline": "graphrag", "qid": "pub-078", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-082", "answer": "2", "judge": {"score": 0, "complete": true, "reason": "Prediction much lower than gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-087", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-088", "answer": "Alpine skiing at the 1992 Winter Olympics – Men's giant slalom", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-090", "answer": "Aslanbek Khushtov", "judge": {"score": 1, "complete": true, "reason": "exact match"}}
+{"pipeline": "graphrag", "qid": "pub-093", "answer": "1", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold answer"}}
+{"pipeline": "graphrag", "qid": "pub-099", "answer": "Marit Bjørgen", "judge": {"score": 0, "complete": true, "reason": "Prediction does not match gold medal winners"}}

@@ -1,0 +1,173 @@
+These hints describe the typed record vertices built from the structured blocks in the documents.
+- Each record has name and doc_title, which hold the full title of the thing it describes. The title often contains words that the separate fields do not, so when the question names a specific thing, match it with toLower(r.name) CONTAINS a lowercase keyword, using one keyword per condition rather than the whole phrase.
+- Text fields hold short raw values like the examples below. Match them with CONTAINS on short keywords, never with a long phrase copied from the question.
+- For comparisons, counts and rankings on numbers, use the attributes ending in _num (DOUBLE). For years, use the attributes ending in _year (INT). A value of 0 in these attributes means the value is missing.
+- For "how many" and "which had the most" questions, return one row per matching record with its name, its doc_id and the attributes involved (for example RETURN r.name AS record_name, r.doc_id AS doc_id, r.x_num AS x_value ORDER BY x_value DESC), and do not use count(). The rows are counted or ranked afterwards, and they show the evidence.
+
+Record types, with the most common values of each field:
+OlympicEvent (2187 records), name examples: "Canoeing at the 2012 Summer Olym"
+  bronze: "Anja Pärson" (also a BRONZE edge to Name)
+  bronzenoc: "USA" (also a BRONZENOC edge to Name)
+  gold: "Michael Phelps" (also a GOLD edge to Name)
+  silver: "Kirsty Coventry" (also a SILVER edge to Name)
+  event: "Men's singles"
+  games: "2016 Summer" (number in games_num)
+  goldnoc: "USA" (also a GOLDNOC edge to Name)
+  silvernoc: "USA" (also a SILVERNOC edge to Name)
+  competitors: "32" (number in competitors_num)
+  nations: "19" (number in nations_num)
+  next: "2020" (number in next_num)
+  venue: "Olympic Stadium" (also a VENUE edge to Name)
+  prev: "2012" (number in prev_num)
+  win_value: "1000"
+  date: "12 August 2016" (year in date_year)
+  dates: "20–27 September" (year in dates_year)
+Film (546 records), name examples: "Jab We Met"
+  director: "Ron Howard" (also a DIRECTOR edge to Name)
+  released: "2000-02-18" (year in released_year)
+  starring: "Shah Rukh KhanRani Mukerji" (also a STARRING edge to Name)
+  country: "United States" (also a COUNTRY edge to Name)
+  producer: "Brian Grazer" (also a PRODUCER edge to Name)
+  language: "English" (also a LANGUAGE edge to Name)
+  cinematography: "Mark Irwin" (also a CINEMATOGRAPHY edge to Name)
+  runtime: "97 minutes" (number in runtime_num)
+  editing: "Michael Kahn" (also a EDITING edge to Name)
+  music: "A. R. Rahman" (also a MUSIC edge to Name)
+  gross: "25 crore" (number in gross_num)
+  distributor: "Universal Pictures" (also a DISTRIBUTOR edge to Name)
+  budget: "$30 million" (number in budget_num)
+  studio: "Imagine Entertainment" (also a STUDIO edge to Name)
+  writer: "Mani Ratnam" (also a HAS_WRITER edge to Name)
+  screenplay: "Steven Zaillian" (also a SCREENPLAY edge to Name)
+  based_on: "Characters Shawn Wayans Marlon W" (also a BASED_ON edge to Name)
+Album (150 records), name examples: "Jab We Met"
+  type_text: "soundtrack"
+  released: "2003" (year in released_year)
+  artist: "Various artists" (also a ARTIST edge to Name)
+  label: "T-Series" (also a LABEL edge to Name)
+  genre: "Feature film soundtrack" (also a GENRE edge to Name)
+  producer: "A. R. Rahman" (also a PRODUCER edge to Name)
+  length: "34:37"
+  next_title: "Dil Ne Jise Apna Kahaa" (also a NEXT_TITLE edge to Name)
+  recorded: "Panchathan Record Inn"
+  prev_title: "Bhool Bhulaiyaa" (also a PREV_TITLE edge to Name)
+  next_year: "2007" (number in next_year_num)
+  prev_year: "2003" (number in prev_year_num)
+Officeholder (73 records), name examples: "Vladimir Putin"
+  term_start: "7 May 2012 | 31 December 1999 | " (year in term_start_year)
+  term_end: "7 May 2008 | 7 May 2012" (year in term_end_year)
+  predecessor: "Dmitry Medvedev | Boris Yeltsin" (also a PREDECESSOR edge to Name)
+  successor: "Dmitry Medvedev" (also a SUCCESSOR edge to Name)
+  office: "President of Russia | Prime Mini"
+  birth_date: "1950-03-04" (year in birth_date_year)
+  birth_place: "Haskell, Texas, U.S." (also a BIRTH_PLACE edge to Name)
+  order_text: "President of Nauru" (number in order_num)
+  spouse: "Anita Thigpen 1982"
+  party: "Democratic" (also a PARTY edge to Name)
+  children: "2" (number in children_num)
+  birth_name: "James Richard Perry" (also a BIRTH_NAME edge to Name)
+  education: "Texas A&M University (BS)" (also a EDUCATION edge to Name)
+  lieutenant: "Bill RatliffDavid Dewhurst" (also a LIEUTENANT edge to Name)
+  death_date: "2019 10 29" (number in death_date_num)
+  death_place: "Phoenix, Arizona, U.S." (also a DEATH_PLACE edge to Name)
+  district: "64th" (number in district_num)
+  branch: "United States Army" (also a BRANCH edge to Name)
+  president: "Bill Clinton" (also a PRESIDENT edge to Name)
+  service_years: "1972–1977" (number in service_years_num)
+  prime_minister: "Viktor Zubkov (acting), Dmitry M" (also a PRIME_MINISTER edge to Name)
+Person (65 records), name examples: "Akira Kurosawa"
+  occupation: "Actor"
+  birth_date: "1946-09-15" (year in birth_date_year)
+  birth_place: "New York City, U.S." (also a BIRTH_PLACE edge to Name)
+  years_active: "1971–present" (number in years_active_num)
+  spouse: "Yōko Yaguchi 1945 1985"
+  birth_name: "Cameron Bruce Crowe" (also a BIRTH_NAME edge to Name)
+  children: "2" (number in children_num)
+  awards: "Full list" (also a AWARDS edge to Name)
+  education: "New York University (BFA)" (also a EDUCATION edge to Name)
+SkiArea (32 records), name examples: "Men's super-G"
+  location: "Rosa Khutor" (also a LOCATION edge to Name)
+  vertical: "615" (number in vertical_num)
+  top_elevation: "2179" (number in top_elevation_num)
+  base_elevation: "825" (number in base_elevation_num)
+TennisTournamentEvent (25 records), name examples: "Tennis at the 2016 Summer Olympi"
+  champ: "GBR Andy Murray" (also a CHAMP edge to Name)
+  runner: "GER Angelique Kerber" (also a RUNNER edge to Name)
+  score: "6–3, 6–3" (number in score_num)
+  quadrennial: "yes"
+  multi: "yes"
+  qual_type: "qual"
+  type_text: "mixed"
+Company (17 records), name examples: "VIA Technologies, Inc."
+  industry: "Computer Hardware, Custom Embedd" (also a INDUSTRY edge to Name)
+  type_text: "Public" (also a HAS_TYPE edge to Name)
+  traded_as: "2388"
+  founded: "1987 in Fremont, California, Uni" (number in founded_num)
+  website: "https://www.viatech.com/en/ ViaT"
+  key_people: "Ross McEwan (chair) Mike Henry (" (also a KEY_PEOPLE edge to Name)
+  revenue: "51.26 billion (2025)" (number in revenue_num)
+  num_employees: "2,000" (number in num_employees_num)
+  net_income: "11.14 billion (2025)" (number in net_income_num)
+  operating_income: "19.46 billion (2025)" (number in operating_income_num)
+  products: "Chipsets, motherboards, CPUs"
+  hq_location_city: "New Taipei City" (also a HQ_LOCATION_CITY edge to Name)
+  hq_location_country: "U.S." (also a HQ_LOCATION_COUNTRY edge to Name)
+  area_served: "Worldwide" (also a AREA_SERVED edge to Name)
+  assets: "108.8 billion (2025)" (number in assets_num)
+  equity: "52.22 billion (2025)" (number in equity_num)
+  hq_location: "Melbourne, Victoria, Australia" (also a HQ_LOCATION edge to Name)
+  founder: "Robert Buchan" (also a FOUNDER edge to Name)
+  founders: "Mark Getty, Jonathan Klein" (also a FOUNDERS edge to Name)
+Writer (8 records), name examples: "Dario Fo"
+  birth_place: "Sangiano, Kingdom of Italy" (also a BIRTH_PLACE edge to Name)
+  occupation: "Playwright, actor, director, com"
+  notable_works: "nowraplinks, The Virtuous Burgla"
+  birth_date: "1926-03-24" (year in birth_date_year)
+  awards: "Nobel Prize in Literature 1997"
+  birth_name: "Dario Luigi Angelo Fo" (also a BIRTH_NAME edge to Name)
+  spouse: "Franca Rame 1954 2013"
+  death_date: "2016 10 13" (number in death_date_num)
+  death_place: "Milan, Italy" (also a DEATH_PLACE edge to Name)
+  children: "2" (number in children_num)
+  period: "Post-war era"
+  genre: "Drama" (also a GENRE edge to Name)
+  language: "Russian (poetry), English (prose" (also a LANGUAGE edge to Name)
+  education: "New York University" (also a EDUCATION edge to Name)
+InternationalFootballCompetition (8 records), name examples: "2002 FIFA World Cup"
+  country: "South Korea | Japan" (also a COUNTRY edge to Name)
+  tourney_name: "Women's Olympic Football Tournam" (also a TOURNEY_NAME edge to Name)
+  year: "2002" (number in year_num)
+  size: "150" (number in size_num)
+  dates: "31 May – 30 June" (year in dates_year)
+  confederations: "6" (number in confederations_num)
+  num_teams: "12" (number in num_teams_num)
+  venues: "5" (number in venues_num)
+  cities: "5" (number in cities_num)
+  count_text: "1" (number in count_num)
+  champion_other: "USA" (also a CHAMPION_OTHER edge to Name)
+  second_other: "BRA" (also a SECOND_OTHER edge to Name)
+  third_other: "CAN" (also a THIRD_OTHER edge to Name)
+  fourth_other: "BRA" (also a FOURTH_OTHER edge to Name)
+  matches: "26" (number in matches_num)
+  goals: "66" (number in goals_num)
+  top_scorer: "CAN Christine Sinclair (6 goals)"
+  nextseason: "2016" (number in nextseason_num)
+  fair_play: "USA" (also a FAIR_PLAY edge to Name)
+  prevseason: "2008" (number in prevseason_num)
+Scientist (6 records), name examples: "George Smoot"
+  birth_date: "1945-02-20" (year in birth_date_year)
+  birth_place: "Yukon, Florida, US" (also a BIRTH_PLACE edge to Name)
+  workplaces: "University of California, Berkel" (also a WORKPLACES edge to Name)
+  education: "Massachusetts Institute of Techn" (also a EDUCATION edge to Name)
+  known_for: "Cosmic microwave background" (also a KNOWN_FOR edge to Name)
+  doctoral_advisor: "David H. Frisch" (also a DOCTORAL_ADVISOR edge to Name)
+  awards: "See list, NASA Exceptional Scien"
+  death_date: "2025 9 18" (number in death_date_num)
+  death_place: "Paris, France" (also a DEATH_PLACE edge to Name)
+  field: "Physics" (also a FIELD edge to Name)
+  doctoral_students: "Leo Kadanoff, Daniel Kleitman, D" (also a DOCTORAL_STUDENTS edge to Name)
+  thesis_title: "Charge exchange of positive Kaon"
+  thesis_url: "https://www.proquest.com/docview"
+  thesis_year: "1971" (number in thesis_year_num)
+  birth_name: "George Fitzgerald Smoot III" (also a BIRTH_NAME edge to Name)
+  fields: "Physics" (also a FIELDS edge to Name)

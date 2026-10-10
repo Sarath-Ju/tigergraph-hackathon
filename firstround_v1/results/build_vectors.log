@@ -1,0 +1,46 @@
+2951 documents, 2162 Olympic events
+  Document: 2951
+  Games: 20
+  Sport: 41
+  Event: 2162
+  Venue: 304
+  Competitor: 5248
+  NOC: 136
+  DESCRIBES: 2162
+  AT_GAMES: 2162
+  OF_SPORT: 2162
+  HELD_AT: 2100
+  WON_MEDAL: 6767
+  REPRESENTS: 5282
+  NEXT_GAMES: 17
+  NEXT_EDITION: 1633
+structured graph loaded in 4s
+23324 chunks; embedding (cached) ...
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 1024
+  Chunk: 2048
+  Chunk: 2048
+  Chunk: 2048
+  Chunk: 2048
+  Chunk: 2048
+  Chunk: 2048
+  Chunk: 2048
+  Chunk: 2048
+  Chunk: 2048
+  Chunk: 2048
+  Chunk: 1592
+  HAS_CHUNK: 23324
+  Event: 2162
+  Venue: 304
+  Competitor: 5248
+done in 182s

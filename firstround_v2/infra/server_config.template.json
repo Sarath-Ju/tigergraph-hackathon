@@ -1,0 +1,58 @@
+{
+  "db_config": {
+    "hostname": "http://tigergraph",
+    "restppPort": "14240",
+    "gsPort": "14240",
+    "username": "${TG_USERNAME}",
+    "password": "${TG_PASSWORD}",
+    "default_timeout": 600,
+    "default_mem_threshold": 5000,
+    "default_thread_limit": 8
+  },
+  "graphrag_config": {
+    "reuse_embedding": true,
+    "ecc": "http://graphrag-ecc:8001",
+    "chat_history_api": "http://chat-history:8002",
+    "chunker": "${CHUNKER}",
+    "chunker_config": {
+      "chunk_size": ${CHUNK_SIZE}, "overlap_size": ${CHUNK_OVERLAP}},
+    "extractor": "llm",
+    "strict_mode": false,
+    "entity_extraction_switch": ${EXTRACT_ENTITIES},
+    "community_detection_switch": ${EXTRACT_ENTITIES},
+    "retrieval_include_entity": ${EXTRACT_ENTITIES},
+    "top_k": ${TOP_K},
+    "num_hops": ${NUM_HOPS},
+    "agent_style": "planned",
+    "default_concurrency": ${INGEST_CONCURRENCY},
+    "extract_images": false
+  },
+  "llm_config": {
+    "token_limit": 0,
+    "authentication_configuration": {
+      "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+    },
+    "embedding_service": {
+      "model_name": "${EMBED_MODEL}",
+      "embedding_model_service": "openai"
+    },
+    "completion_service": {
+      "llm_service": "openai",
+      "llm_model": "${LLM_MODEL}",
+      "model_kwargs": {"temperature": 0},
+      "prompt_path": "./common/prompts/openai_gpt4/"
+    },
+    "multimodal_service": {
+      "llm_service": "openai",
+      "llm_model": "${LLM_MODEL}",
+      "model_kwargs": {"temperature": 0}
+    }
+  },
+  "chat_config": {
+    "apiPort": "8002",
+    "dbPath": "chats.db",
+    "dbLogPath": "db.log",
+    "logPath": "requestLogs.jsonl",
+    "conversationAccessRoles": ["superuser", "globaldesigner"]
+  }
+}

@@ -1,0 +1,4 @@
+pyTigerGraph==2.0.4
+openai==3.19.2
+requests==2.34.2
+python-dotenv==1.2.3
